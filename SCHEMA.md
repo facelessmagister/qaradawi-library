@@ -47,10 +47,12 @@ sha256: <hex digest of extracted content>
 
 ### By Subject (Fiqh Domains)
 - `fiqh-ibadat` — Worship (salah, zakah, sawm, hajj)
-- `fiqh-muamalat` — Transactions (trade, contracts, inheritance)
+- `fiqh-muamalat` — Transactions (trade, contracts, inheritance, zakat, sadaqah)
 - `fiqh-ahwal-shakhsiyyah` — Personal status (marriage, divorce, custody)
 - `fiqh-jinayat` — Criminal law / hudud
 - `fiqh-dawah` — Islamic propagation and methodology
+- `islamic-movement` — Contemporary Islamic movements
+- `future` — Future/eschatological topics
 
 ### By Discipline
 - `usul-al-fiqh` — Principles of jurisprudence
@@ -59,8 +61,37 @@ sha256: <hex digest of extracted content>
 - `islamic-ethics` — Akhlaq and character
 - `islamic-economics` — Financial and economic rulings
 - `islamic-education` — Pedagogy and tarbiyyah
+- `tazkiyah` — Spiritual purification and character development
+- `aqeedah` — Islamic creed and theology
+- `spirituality` — Spiritual life and practice
+
+### By Topic
+- `halal-haram` — Lawful and prohibited
+- `zakat` — Obligatory alms
+- `salah` — Ritual prayer
+- `sawm` — Fasting
+- `hajj` — Pilgrimage
+- `sunnah` — Prophetic tradition
+- `nikah` — Marriage
+- `talaq` — Divorce
+- `riba` — Usury
+- `taharah` — Purity
+- `jihad` — Struggle/striving
+- `dawah` — Islamic propagation
+- `tawhid` — Divine unity
+- `niyyah` — Intention
+- `taqwa` — God-consciousness
+- `akhlaq` — Moral character
+- `adab` — Etiquette
+- `shariah` — Islamic law
+- `quran` — The Quran
+- `hadith` — Prophetic narrations
+- `arts` — Visual and performing arts
+- `entertainment` — Recreation and leisure
+- `sadaqah` — Voluntary charity
 
 ### By Meta
+- `meta` — Index, catalog, or navigation pages
 - `book-overview` — Summary/overview of a complete book
 - `chapter` — Individual chapter page
 - `concept` — Thematic concept page

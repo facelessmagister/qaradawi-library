@@ -95,7 +95,7 @@ def lint():
 
     schema_tags = load_schema_taxonomy()
     today = datetime.now().strftime("%Y-%m-%d")
-    today_dt = datetime.strptime(today, "%%Y-%m-%d")
+    today_dt = datetime.strptime(today, "%Y-%m-%d")
 
     issues = {
         "critical": [],
