@@ -1,0 +1,23 @@
+# Qaradawi Library — Git Ignore
+# Raw sources are large and immutable; do not commit them
+
+# Raw extraction artifacts
+raw/pdfs/*.pdf
+raw/extracted/*/full.txt
+raw/extracted/*/*.txt
+
+# Cache and stats
+.cache/*
+.stats/*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (logs are committed, but backup logs are not)
+.stats/backup.log

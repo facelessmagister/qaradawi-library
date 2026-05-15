@@ -1,0 +1,284 @@
+# Qaradawi Library — Book Registry
+# Canonical source of truth for all books in the corpus
+# Agents MUST read this file before any download/extract/ingest operation
+
+books:
+  halal-haram:
+    title: "The Lawful and the Prohibited in Islam"
+    arabic_title: "الحلال والحرام في الإسلام"
+    archive_id: "lawfulprohibited0000qara_y8p5"
+    archive_url: "https://archive.org/details/lawfulprohibited0000qara_y8p5"
+    formats_available: ["Text PDF", "EPUB", "LCP Encrypted PDF"]
+    preferred_format: "Text PDF"
+    domain: fiqh-ibadat
+    tags: [fiqh-ibadat, halal-haram, usul-al-fiqh, islamic-ethics]
+    estimated_chapters: 20
+    priority: 1
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Core reference on halal/haram. High priority for corpus foundation."
+
+  fiqh-al-zakah:
+    title: "Fiqh al-Zakah (2 Volumes)"
+    arabic_title: "فقه الزكاة"
+    archive_id: "fiqh-al-zakah-volume-2"
+    archive_url: "https://archive.org/details/fiqh-al-zakah-volume-2"
+    formats_available: ["Text PDF", "EPUB"]
+    preferred_format: "Text PDF"
+    domain: fiqh-muamalat
+    tags: [fiqh-muamalat, zakat, islamic-economics]
+    estimated_chapters: 30
+    priority: 1
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Major work on zakah. Comprehensive treatment of nisab, recipients, modern applications."
+
+  approaching-the-sunnah:
+    title: "Approaching the Sunnah: Comprehension and Controversy"
+    arabic_title: "كيف نتفهم السنة"
+    archive_id: "approaching-the-sunnah-comprehension-controversy"
+    archive_url: "https://archive.org/details/approaching-the-sunnah-comprehension-controversy"
+    formats_available: ["Text PDF"]
+    preferred_format: "Text PDF"
+    domain: hadith-methodology
+    tags: [hadith-methodology, sunnah, usul-al-fiqh]
+    estimated_chapters: 12
+    priority: 1
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Methodological work on hadith comprehension. Essential for usul studies."
+
+  priorities-islamic-movement:
+    title: "Priorities of the Islamic Movement in the Coming Phase"
+    arabic_title: "أولويات الحركة الإسلامية في المرحلة القادمة"
+    archive_id: "prioritiesofisla0000yusu"
+    archive_url: "https://archive.org/details/prioritiesofisla0000yusu"
+    formats_available: ["Text PDF", "EPUB", "LCP Encrypted PDF"]
+    preferred_format: "Text PDF"
+    domain: fiqh-dawah
+    tags: [fiqh-dawah, islamic-movement, priorities]
+    estimated_chapters: 15
+    priority: 2
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Contains political content. Ingest fiqh/dawah chapters only; flag political sections."
+
+  islamic-prayer:
+    title: "Islamic Prayer: Between Extremism and Negligence"
+    arabic_title: "الصلاة بين الإفراط والتفريط"
+    archive_id: "islamicprayerbet0000yusu"
+    archive_url: "https://archive.org/details/islamicprayerbet0000yusu"
+    formats_available: ["Text PDF", "EPUB", "LCP Encrypted PDF"]
+    preferred_format: "Text PDF"
+    domain: fiqh-ibadat
+    tags: [fiqh-ibadat, salah, usul-al-fiqh]
+    estimated_chapters: 18
+    priority: 1
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Detailed fiqh of salah. Avoids extremism on both sides — very practical."
+
+  economic-security:
+    title: "Economic Security in Islam"
+    arabic_title: "الأمن الاقتصادي في الإسلام"
+    archive_id: "economic-security-in-islam_202503"
+    archive_url: "https://archive.org/details/economic-security-in-islam_202503"
+    formats_available: ["Text PDF"]
+    preferred_format: "Text PDF"
+    domain: fiqh-muamalat
+    tags: [fiqh-muamalat, islamic-economics, zakat, sadaqah]
+    estimated_chapters: 14
+    priority: 2
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Economic dimensions of Islamic social security system."
+
+  ethics-in-islam:
+    title: "Ethics in Islam"
+    arabic_title: "أخلاق المسلم"
+    archive_id: "ethics-in-islam_202503"
+    archive_url: "https://archive.org/details/ethics-in-islam_202503"
+    formats_available: ["Text PDF"]
+    preferred_format: "Text PDF"
+    domain: islamic-ethics
+    tags: [islamic-ethics, akhlaq, tazkiyah]
+    estimated_chapters: 16
+    priority: 2
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Comprehensive treatment of Muslim character and moral conduct."
+
+  time-in-life:
+    title: "Time in the Life of a Muslim"
+    arabic_title: "الوقت في حياة المسلم"
+    archive_id: "timeinlifeofmusl0000qara"
+    archive_url: "https://archive.org/details/timeinlifeofmusl0000qara"
+    formats_available: ["Text PDF", "EPUB", "LCP Encrypted PDF"]
+    preferred_format: "Text PDF"
+    domain: islamic-ethics
+    tags: [islamic-ethics, time-management, tazkiyah]
+    estimated_chapters: 10
+    priority: 3
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Practical guide on time stewardship from Islamic perspective."
+
+  education-economy-sunnah:
+    title: "Education and Economy in the Sunnah"
+    arabic_title: "التربية والاقتصاد في السنة"
+    archive_id: "education-and-economy-in-the-sunnah"
+    archive_url: "https://archive.org/details/education-and-economy-in-the-sunnah"
+    formats_available: ["Text PDF"]
+    preferred_format: "Text PDF"
+    domain: islamic-education
+    tags: [islamic-education, islamic-economics, sunnah]
+    estimated_chapters: 12
+    priority: 3
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Dual focus on prophetic pedagogy and economic ethics."
+
+  diversion-arts:
+    title: "Diversion and Arts in Islam"
+    arabic_title: "اللهو والفنون في الإسلام"
+    archive_id: "diversion-and-arts-in-islam"
+    archive_url: "https://archive.org/details/diversion-and-arts-in-islam"
+    formats_available: ["Text PDF", "EPUB"]
+    preferred_format: "Text PDF"
+    domain: fiqh-ibadat
+    tags: [fiqh-ibadat, arts, entertainment, islamic-ethics]
+    estimated_chapters: 14
+    priority: 3
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Rulings on permissible recreation, music, visual arts in Islam."
+
+  contemporary-fatwa-1:
+    title: "Contemporary Fatwa Volume 1"
+    arabic_title: "فقه الواقع — الجزء الأول"
+    archive_id: "contemporary-fatwa-volume-1"
+    archive_url: "https://archive.org/details/contemporary-fatwa-volume-1"
+    formats_available: ["Text PDF"]
+    preferred_format: "Text PDF"
+    domain: fiqh-muamalat
+    tags: [fiqh-muamalat, fatwa, contemporary-issues]
+    estimated_chapters: 25
+    priority: 2
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Fatwas on modern issues. Filter political fatwas; ingest fiqh-only."
+
+  islamic-education-banna:
+    title: "Islamic Education and Hasan al-Banna"
+    arabic_title: "التربية الإسلامية والإمام حسن البنا"
+    archive_id: "islamiceducation0000qara"
+    archive_url: "https://archive.org/details/islamiceducation0000qara"
+    formats_available: ["Text PDF", "EPUB", "LCP Encrypted PDF"]
+    preferred_format: "Text PDF"
+    domain: islamic-education
+    tags: [islamic-education, tarbiyyah, hasan-al-banna]
+    estimated_chapters: 12
+    priority: 3
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Pedagogical methodology. Contains historical/political context of al-Banna."
+
+  faith-and-life:
+    title: "Faith and Life"
+    arabic_title: "الإيمان والحياة"
+    archive_id: "faith-and-life"
+    archive_url: "https://archive.org/details/faith-and-life"
+    formats_available: ["Text PDF"]
+    preferred_format: "Text PDF"
+    domain: tazkiyah
+    tags: [tazkiyah, aqeedah, spirituality]
+    estimated_chapters: 12
+    priority: 2
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Connection between theological conviction and daily living."
+
+  auspices-victory:
+    title: "Auspices of the Ultimate Victory of Islam"
+    arabic_title: "مقدمات النصر المبين للإسلام"
+    archive_id: "auspices-of-the-ultimate-victory-of-islam"
+    archive_url: "https://archive.org/details/auspices-of-the-ultimate-victory-of-islam"
+    formats_available: ["Text PDF"]
+    preferred_format: "Text PDF"
+    domain: fiqh-dawah
+    tags: [fiqh-dawah, islamic-movement, future]
+    estimated_chapters: 10
+    priority: 3
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Eschatological and strategic. Heavy political content — ingest selectively."
+
+  fiqh-al-taharah:
+    title: "Fiqh al-Taharah (Arabic)"
+    arabic_title: "فقه الطهارة"
+    archive_id: "AAlexandrina-410060"
+    archive_url: "https://archive.org/details/AAlexandrina-410060"
+    formats_available: ["Text PDF"]
+    preferred_format: "Text PDF"
+    domain: fiqh-ibadat
+    tags: [fiqh-ibadat, taharah, purity, arabic-source]
+    estimated_chapters: 18
+    priority: 2
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Arabic original. Requires Arabic-capable extraction and ingest pipeline."
+
+  sahwa-islamiyyah:
+    title: "al-Sahwah al-Islamiyyah (Arabic)"
+    arabic_title: "الصحوة الإسلامية"
+    archive_id: "AAlexandrina-183329"
+    archive_url: "https://archive.org/details/AAlexandrina-183329"
+    formats_available: ["Text PDF"]
+    preferred_format: "Text PDF"
+    domain: fiqh-dawah
+    tags: [fiqh-dawah, islamic-awakening, arabic-source]
+    estimated_chapters: 15
+    priority: 3
+    downloaded: false
+    extracted: false
+    ingested: false
+    ocr_needed: false
+    notes: "Arabic original on Islamic awakening. Political content — ingest selectively."
+
+stats:
+  total_books: 16
+  downloaded: 0
+  extracted: 0
+  ingested: 0
+  total_wiki_pages: 0
+  last_updated: 2026-05-16
