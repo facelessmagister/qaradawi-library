@@ -1,11 +1,14 @@
 # Qaradawi Library — Agent Context
 
+> **Governance:** Curated by the main Hermes agent (you). This project no longer uses a dedicated agent profile — all work runs through the system Hermes with the `scholarly-corpus-wiki` skill loaded.
+
 ## Project Identity
 
 **Name:** Qaradawi Library (قَرَضَاوِيّ مَكْتَبَة)
 **Domain:** Islamic Scholarly Corpus — Complete works of the late Prof. Dr. Yusuf al-Qaradawi (1926–2022)
 **Location:** `/root/qaradawi-library/`
 **Type:** LLM Wiki (Karpathy pattern) + Static E-Library Website + GitHub Repository
+**Agent:** Main Hermes profile (`scholarly-corpus-wiki` skill loaded on demand)
 
 ## Mission
 

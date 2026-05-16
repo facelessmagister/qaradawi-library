@@ -529,7 +529,7 @@ FAITH_AND_LIFE_ARABIC = {
 }
 
 def generate_faith_and_life_chapter(ch_num, book):
-    """Generate a richly formatted chapter page for Faith and Life."""
+    """Generate a richly formatted chapter page for Faith and Life (full text)."""
 
     ch_path = os.path.join(RAW_EXTRACTED, "faith-and-life", f"ch-{ch_num:02d}.txt")
     if not os.path.exists(ch_path):
@@ -538,103 +538,180 @@ def generate_faith_and_life_chapter(ch_num, book):
     with open(ch_path, "r") as f:
         content = f.read()
 
-    # Parse frontmatter
-    fm, text = parse_frontmatter(content)
+    fm, raw_text = parse_frontmatter(content)
     ch_title = FAITH_AND_LIFE_CHAPTER_TITLES.get(ch_num, fm.get("title", f"Chapter {ch_num}"))
     arabic = FAITH_AND_LIFE_ARABIC.get(ch_num, "")
 
-    # Extract concepts
-    concepts = extract_concepts_from_text(text, book.get("tags", []))
+    concepts = extract_concepts_from_text(raw_text, book.get("tags", []))
 
-    # Clean the text: remove page headers and form feeds
-    lines = text.split("\n")
+    # ── 1. Parse raw text into clean paragraphs ──
+    lines = raw_text.splitlines()
     cleaned = []
     for line in lines:
-        # Skip page header lines like "Chapter One", "Faith and Life", page numbers
         s = line.strip()
-        if s.startswith("\f"):
+        if s.startswith("\f") or re.match(r"^\d+\s+Faith and Life\s*$", s) or s == "Faith and Life":
             continue
-        if re.match(r"^(Chapter|CHAPTER)\s+(One|Two|Three|Four|[0-9]+)\s*$", s, re.IGNORECASE):
-            continue
-        if re.match(r"^\d+\s+Faith and Life\s*$", s):
-            continue
-        if s in ["Faith and Life", f"Faith and Life"]:
-            continue
-        cleaned.append(line)
-    text = "\n".join(cleaned)
+        cleaned.append(s)
 
-    # Extract verses (Qur'anic text in << >> or «...» patterns)
-    # Build content HTML section by section
+    blank_groups = []
+    buf = []
+    for line in cleaned:
+        if line == '':
+            if buf:
+                blank_groups.append(buf)
+                buf = []
+        else:
+            buf.append(line)
+    if buf:
+        blank_groups.append(buf)
 
-    breadcrumb = f"""<div class="breadcrumb"><a href="/">Library</a><span>›</span><a href="/books/faith-and-life/">Faith and Life</a><span>›</span>Chapter {ch_num}</div>"""
+    # Split groups at internal section titles (e.g. "Man in the sight of materialists")
+    def _is_section_title(line):
+        return (
+            10 <= len(line) <= 70
+            and not re.search(r'[.!?]$', line)
+            and line[0].isupper()
+            and ' ' in line
+            and re.search(r'\b(Man|Islam|Iman|Allah|Faith|Belief|Life|Human|Humanity|Spirit|Soul|Angels|Quran|Shariah|Sunnah|Worship|Jihad|Creation|Nature|Goal|Position|Honor|Dignity|Freedom|Death|Resurrection|Afterlife)\b', line)
+        )
 
-    hero = f"""<header class="hero-book">
+    final_groups = []
+    for group in blank_groups:
+        split_at = []
+        for i, line in enumerate(group):
+            if i > 0 and _is_section_title(line):
+                split_at.append(i)
+        if not split_at:
+            final_groups.append(group)
+        else:
+            prev = 0
+            for idx in split_at:
+                final_groups.append(group[prev:idx])
+                prev = idx
+            final_groups.append(group[prev:])
+    blank_groups = final_groups
+
+    paragraphs = []
+    for group in blank_groups:
+        def looks_like_title(line):
+            return 8 <= len(line) <= 70 and line and line[0].isupper() and ' ' in line and not re.search(r'[.!?]$', line)
+        all_titles = all(looks_like_title(l) for l in group)
+        if all_titles and len(group) > 1:
+            for l in group:
+                paragraphs.append(l.strip())
+        else:
+            paragraphs.append(' '.join(l.strip() for l in group))
+
+    # ── 2. Extract outline from first paragraphs ──
+    outline = []
+    body_start = 0
+    for i, p in enumerate(paragraphs):
+        if not p or len(p) > 75:
+            break
+        if i > 20:
+            break
+        if re.match(r'^(Iman\s*\(Faith\)|Faith and Life)', p, re.I):
+            continue
+        if len(p) >= 8 and not re.search(r'[.!?]$', p):
+            outline.append(p)
+            body_start = i + 1
+
+    # ── 3. Classify remaining paragraphs ──
+    tagged = []
+    body_started = False
+    title_keywords = {'man', 'allah', 'islam', 'iman', 'human', 'faith', 'divine', 'prophet', 'soul', 'spirit', 'quran', 'angels', 'position', 'nature', 'goal', 'sight', 'believers', 'materialists', 'scholars', 'honor', 'sunnah', 'shariah', 'worship', 'jihad', 'life', 'world', 'creation'}
+
+    for p in paragraphs[body_start:]:
+        if not p or len(p) < 4:
+            continue
+
+        looks_like_title = (
+            10 < len(p) < 85
+            and not re.search(r'[.!?]$', p)
+            and ' ' in p
+            and p[0].isupper()
+            and body_started
+        )
+        is_keyword_title = any(k in p.lower() for k in title_keywords)
+        if looks_like_title and is_keyword_title:
+            tagged.append(('title', p))
+            body_started = True
+            continue
+
+        body_started = True
+
+        # Verse: guillemets / starts with quote mark / contains (Al-...) ref
+        verse_starts = bool(re.match(r'\s*["\u00ab\u2039]', p))
+        has_surah_ref = bool(re.search(r'\([A-Z][a-z]+.*\d', p))
+        if verse_starts or has_surah_ref:
+            tagged.append(('verse', p))
+        elif re.search(r'\b(hadith|narrated|prophet.*said|messenger|peace be upon him)\b', p, re.I) and ('"' in p or '"' in p):
+            tagged.append(('quote', p))
+        else:
+            tagged.append(('p', p))
+
+    # ── 4. Build HTML ──
+    def _e(s):
+        return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
+
+    parts = []
+    hero = f'''<header class="hero-book">
   <div class="domain-badge">Chapter {ch_num}</div>
   <h1>{ch_title}</h1>
   <div class="arabic-title">{arabic}</div>
-  <p class="subtitle" style="margin-top:8px;">From <a href="/books/faith-and-life/" style="color:var(--accent);">Faith and Life</a> by Dr. Yusuf al-Qaradawi</p>
-</header>"""
+  <p style="margin-top:8px;">From <a href="/books/faith-and-life/" style="color:var(--accent);">Faith and Life</a> by Dr. Yusuf al-Qaradawi</p>
+</header>'''
 
-    # Preview text (first ~3000 chars for body)
-    preview = text[:4000]
+    if outline:
+        items_html = chr(10).join(f'    <li>{_e(item)}</li>' for item in outline)
+        parts.append(f'''<div class="outline">
+  <h3>Chapter Outline</h3>
+  <ol>
+{items_html}
+  </ol>
+</div>''')
 
-    # Format preview: detect verse-like patterns and highlight
-    # Split into paragraphs
-    paragraphs = [p.strip() for p in preview.split("\n\n") if p.strip()]
+    for t, p in tagged:
+        block = _e(p)
+        if t == 'title':
+            parts.append(f'<div class="section-header">\n  <h2 class="section-title">{block}</h2>\n</div>')
+        elif t == 'verse':
+            parts.append(f'<div class="section-verse">\n  <p>{block}</p>\n</div>')
+        elif t == 'quote':
+            parts.append(f'<blockquote class="quote">\n  <p>{block}</p>\n</blockquote>')
+        elif t == 'p':
+            parts.append(f'<p>{block}</p>')
 
-    content_html_parts = []
-    for para in paragraphs[:40]:  # Limit to first 40 paragraphs
-        para = para.replace("\n", " ")
-        para = re.sub(r"\s+", " ", para).strip()
-        if len(para) < 15:
-            continue
-
-        # Check if it's a Qur'anic verse
-        if re.search(r"[«»\u00AB\u00BB]", para) or re.search(r'"[^"]{30,}"', para):
-            content_html_parts.append(f'<div class="section-verse"><p>{para}</p></div>')
-        elif re.search(r"(hadith|narrated by|peace be upon him|Prophet.*said)", para, re.IGNORECASE) and len(para) > 100:
-            content_html_parts.append(f'<div class="hadith-block"><p>{para}</p></div>')
-        elif len(para) > 60:
-            content_html_parts.append(f"<p>{para}</p>")
-        else:
-            content_html_parts.append(f"<p>{para}</p>")
-
-    # Concept pills
     pill_html = ""
     if concepts:
-        pills = []
-        for c in concepts:
-            pills.append(f'<a href="/topics/{c["slug"]}/" class="topic-pill">{c["name"]}</a>')
-        pill_html = f"""<div class="topic-pills">{chr(10).join(pills)}</div>"""
+        pills = [f'<a href="/topics/{c["slug"]}/" class="topic-pill">{c["name"]}</a>' for c in concepts]
+        pill_html = f'<div class="topic-pills">' + chr(10).join(pills) + '</div>'
 
-    # Chapter nav
-    prev_link = ""
-    next_link = ""
+    prev_link, next_link = "", ""
     if ch_num > 1:
         prev_link = f'<a href="/books/faith-and-life/ch-{ch_num-1}/">← Chapter {ch_num-1}</a>'
     if ch_num < 4:
         next_link = f'<a href="/books/faith-and-life/ch-{ch_num+1}/">Chapter {ch_num+1} →</a>'
-
-    chapter_nav = f"""<div class="chapter-nav">
+    chapter_nav = f'''<div class="chapter-nav">
   <span>{prev_link}</span>
   <a href="/books/faith-and-life/">↑ Book Overview</a>
   <span>{next_link}</span>
-</div>"""
+</div>'''
+
+    breadcrumb = f'''<div class="breadcrumb"><a href="/">Library</a><span>›</span><a href="/books/faith-and-life/">Faith and Life</a><span>›</span>Chapter {ch_num}</div>'''
 
     body = f"""{breadcrumb}
 {hero}
 <main class="content">
   {pill_html}
   {chapter_nav}
-  <div class="section">
-    <h2 class="section-title">Chapter Content</h2>
-  </div>
-{chr(10).join(content_html_parts)}
+{chr(10).join(parts)}
   {chapter_nav}
 </main>"""
 
     desc = f"Chapter {ch_num}: {ch_title} — Faith and Life by Dr. Yusuf al-Qaradawi"
     return html_page(f"Chapter {ch_num}: {ch_title} — Qaradawi Library", body, desc)
+
 
 
 # ═══════════════════════════════════════════════════════════════

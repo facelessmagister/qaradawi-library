@@ -21,3 +21,6 @@ Thumbs.db
 
 # Logs (logs are committed, but backup logs are not)
 .stats/backup.log
+
+# Profile backups (consolidation artifacts)
+.tools/profile-backup-*
