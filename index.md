@@ -10,7 +10,7 @@ tags: [meta, index]
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-05-16 | Total pages: 67
+> Last updated: 2026-05-16 | Total pages: 71
 
 ---
 
@@ -172,4 +172,10 @@ tags: [meta, index]
 
 - [[faith-and-life-overview|Faith and Life]] — tazkiyah
 
-- [[faith-and-life-ch-01|Chapter 1: Full Text (OCR quality — chapter boundaries unclear)]]
+- [[faith-and-life-ch-01|Chapter 1: Iman and the Dignity of Man]]
+
+- [[faith-and-life-ch-02|Chapter 2: Iman and Happiness]]
+
+- [[faith-and-life-ch-03|Chapter 3: Iman and Love]]
+
+- [[faith-and-life-ch-04|Chapter 4: Iman and Hope]]

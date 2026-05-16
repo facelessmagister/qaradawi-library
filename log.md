@@ -148,10 +148,10 @@ tags: [meta, log]
 - concept_pages_updated: 7
 - total_pages: 3
 
-## [2026-05-16] ingest
+## [2026-05-16] ingest | Faith and Life (superseded — see fix below)
 - book: Faith and Life
 - slug: faith-and-life
-- chapters: 1
+- chapters: 1 (incorrect — all 4 chapters dumped into ch-01)
 - chapter_pages: 1
 - concept_pages_created: 1
 - concept_pages_updated: 7
@@ -166,12 +166,6 @@ tags: [meta, log]
 ## [2026-05-16] lint | 75 issues found
 - critical: 0
 - warning: 67
-- info: 8
-
-## [2026-05-16] lint | 16 issues found
-- critical: 0
-- warning: 8
-- info: 8
 
 ## [2026-05-16] ingest-batch | 8 books ingested
 - approaching-the-sunnah: 3 chapters, 12 concepts
@@ -192,9 +186,28 @@ tags: [meta, log]
 ## [2026-05-16] lint | 9 issues found
 - critical: 0
 - warning: 1
-- info: 8
 
 ## [2026-05-16] lint | 8 issues found
 - critical: 0
 - warning: 0
-- info: 8
+
+## [2026-05-16] fix | faith-and-life chapter re-split
+- problem: All 4 chapters dumped into ch-01.txt due to page-header false positives
+- action: Manually split full.txt at known boundaries (lines 265, 1244, 1664, 2603)
+- added proper frontmatter with chapter titles
+- re-ingested with --reingest flag
+- result: 5 pages (1 overview + 4 chapters), 13 concept updates
+- old entity files cleaned; index.md duplicates removed
+
+## [2026-05-16] ingest | Faith and Life (re-ingest after fix)
+- book: Faith and Life
+- slug: faith-and-life
+- chapters: 4
+- chapter_pages: 4
+- concept_pages_created: 0
+- concept_pages_updated: 13
+- total_pages: 5
+
+## [2026-05-16] lint | 8 issues found
+- critical: 0
+- warning: 0

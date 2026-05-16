@@ -12,14 +12,14 @@ sources:
 book: faith-and-life
 arabic_title: الإيمان والحياة
 domain: tazkiyah
-chapter_count: 1
+chapter_count: 4
 ---
 
 # Faith and Life
 
 **Arabic:** الإيمان والحياة
 **Domain:** tazkiyah
-**Chapters:** 1
+**Chapters:** 4
 **Archive.org:** [faith-and-life](https://archive.org/details/faith-and-life)
 
 ## Overview
@@ -29,6 +29,9 @@ This book by Dr. Yusuf al-Qaradawi addresses tazkiyah.
 ## Chapter Index
 
 - [[faith-and-life-ch-01|Chapter 1]]
+- [[faith-and-life-ch-02|Chapter 2]]
+- [[faith-and-life-ch-03|Chapter 3]]
+- [[faith-and-life-ch-04|Chapter 4]]
 
 ## Key Concepts Covered
 

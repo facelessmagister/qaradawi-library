@@ -16,6 +16,8 @@ sources:
 - raw/extracted/fiqh-al-zakah/ch-03.txt
 - raw/extracted/diversion-arts/ch-01.txt
 - raw/extracted/faith-and-life/ch-01.txt
+- raw/extracted/faith-and-life/ch-02.txt
+- raw/extracted/faith-and-life/ch-03.txt
 confidence: low
 ---
 
@@ -67,6 +69,14 @@ confidence: low
 ## Qaradawi's Treatment
 
 - [[faith-and-life-ch-01|Faith and Life — Chapter 1]]
+
+## Qaradawi's Treatment
+
+- [[faith-and-life-ch-02|Faith and Life — Chapter 2]]
+
+## Qaradawi's Treatment
+
+- [[faith-and-life-ch-03|Faith and Life — Chapter 3]]
 
 ## Related Concepts
 

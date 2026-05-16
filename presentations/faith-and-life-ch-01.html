@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iman and the Dignity of Man — Faith and Life</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Inter:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fdfaf5;
+    --surface: #ffffff;
+    --text: #1a1815;
+    --text-muted: #6b6560;
+    --text-light: #9a948e;
+    --accent: #8b6914;
+    --accent-light: #f5f0e3;
+    --accent-bg: #faf6ed;
+    --border: 1px solid rgba(0,0,0,0.07);
+    --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.02);
+    --shadow-lg: 0 4px 18px rgba(0,0,0,0.04), 0 2px 7px rgba(0,0,0,0.027), 0 0.8px 3px rgba(0,0,0,0.02);
+    --max-w: 720px;
+    --verse: #5c4f1a;
+    --verse-bg: #fbf7ed;
+    --header-accent: #c4a035;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 17px; scroll-behavior: smooth; }
+  
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    background: linear-gradient(180deg, #faf6ed 0%, #fdfaf5 60%, var(--bg) 100%);
+    padding: 64px 24px 48px;
+    text-align: center;
+    border-bottom: var(--border);
+  }
+  .hero-badge {
+    display: inline-block;
+    padding: 5px 14px;
+    background: var(--accent-light);
+    color: var(--accent);
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .hero-book {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+  .hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    color: var(--text);
+    max-width: 640px;
+    margin: 0 auto 12px;
+  }
+  .hero-arabic {
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: 1.5rem;
+    color: var(--accent);
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  .hero-subtitle {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    font-weight: 400;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .hero-meta {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 28px;
+    flex-wrap: wrap;
+  }
+  .hero-meta-item {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .hero-meta-item strong { color: var(--text-muted); }
+
+  /* ── CONTENT ── */
+  .content {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  /* Outline */
+  .outline {
+    background: var(--surface);
+    border: var(--border);
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-bottom: 48px;
+    box-shadow: var(--shadow);
+  }
+  .outline h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: var(--text);
+    margin-bottom: 16px;
+    font-weight: 700;
+  }
+  .outline ol {
+    list-style: none;
+    counter-reset: outline;
+  }
+  .outline li {
+    counter-increment: outline;
+    padding: 6px 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    border-bottom: var(--border);
+  }
+  .outline li:last-child { border-bottom: none; }
+  .outline li::before {
+    content: counter(outline) ".";
+    color: var(--accent);
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  /* Sections */
+  .section {
+    margin-bottom: 52px;
+  }
+  .section-header {
+    margin-bottom: 20px;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.55rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+  .section-verse {
+    margin: 24px 0;
+    padding: 20px 24px;
+    background: var(--verse-bg);
+    border-left: 3px solid var(--header-accent);
+    border-radius: 0 8px 8px 0;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--verse);
+  }
+  .section-verse .arabic {
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: 1.15rem;
+    display: block;
+    margin-bottom: 10px;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .section-verse .ref {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--text-light);
+    margin-top: 8px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  p {
+    margin-bottom: 16px;
+    font-size: 1rem;
+    color: var(--text);
+  }
+  p.lead {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  /* Quotes */
+  blockquote.quote {
+    margin: 28px 0;
+    padding: 20px 24px;
+    background: var(--accent-bg);
+    border-radius: 8px;
+    font-style: italic;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+  blockquote.quote .attr {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--accent);
+  }
+
+  /* Highlight box */
+  .highlight-box {
+    margin: 28px 0;
+    padding: 24px;
+    background: var(--surface);
+    border: var(--border);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+  }
+  .highlight-box .label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+
+  /* Contrast cards */
+  .contrast {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 28px 0;
+  }
+  .contrast-card {
+    padding: 20px;
+    border-radius: 10px;
+    border: var(--border);
+  }
+  .contrast-card.dark {
+    background: #f0ebe0;
+  }
+  .contrast-card.light {
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+  .contrast-card h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    font-weight: 700;
+  }
+  .contrast-card p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 0;
+  }
+
+  /* Three pillars */
+  .pillars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin: 32px 0;
+  }
+  .pillar {
+    text-align: center;
+    padding: 24px 16px;
+    background: var(--surface);
+    border: var(--border);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+  }
+  .pillar .num {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .pillar .label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .pillar .desc {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  /* Divider */
+  .divider {
+    text-align: center;
+    margin: 48px 0;
+    color: var(--accent);
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    letter-spacing: 0.15em;
+  }
+
+  /* Hadith */
+  .hadith-block {
+    margin: 24px 0;
+    padding: 22px 24px;
+    background: #faf6ed;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-muted);
+  }
+  .hadith-block .attr {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--accent);
+    font-style: normal;
+  }
+
+  /* Key point */
+  .key-point {
+    margin: 24px 0;
+    padding: 18px 22px;
+    background: var(--surface);
+    border: var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  /* Footer */
+  .footer {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 40px 24px 60px;
+    text-align: center;
+    border-top: var(--border);
+  }
+  .footer p {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: 4px;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 640px) {
+    html { font-size: 15px; }
+    .hero { padding: 48px 16px 36px; }
+    .hero-title { font-size: 1.9rem; }
+    .hero-arabic { font-size: 1.2rem; }
+    .content { padding: 28px 16px 60px; }
+    .outline { padding: 20px 18px; }
+    .contrast { grid-template-columns: 1fr; }
+    .pillars { grid-template-columns: 1fr; }
+    .section-title { font-size: 1.3rem; }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1815;
+      --surface: #24211c;
+      --text: #e8e4dd;
+      --text-muted: #b5aea5;
+      --text-light: #8a827b;
+      --accent: #c4a035;
+      --accent-light: #3d3520;
+      --accent-bg: #2a2520;
+      --border: 1px solid rgba(255,255,255,0.06);
+      --shadow: 0 1px 3px rgba(0,0,0,0.2);
+      --shadow-lg: 0 4px 18px rgba(0,0,0,0.3);
+      --verse: #d4cba0;
+      --verse-bg: #252018;
+      --header-accent: #c4a035;
+    }
+    .hero { background: linear-gradient(180deg, #252018 0%, #1f1c17 60%, var(--bg) 100%); }
+    .contrast-card.dark { background: #2a2420; }
+    .hadith-block { background: #252018; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════ HERO ═══════════ -->
+<header class="hero">
+  <div class="hero-badge">Chapter 1</div>
+  <div class="hero-book">From <strong>Faith and Life</strong> — الإيمان والحياة</div>
+  <h1 class="hero-title">Iman and the Dignity of Man</h1>
+  <div class="hero-arabic">الإيمان وكرامة الإنسان</div>
+  <p class="hero-subtitle">How faith elevates the human being from a mere animal to an honoured vicegerent of Allah</p>
+  <div class="hero-meta">
+    <div class="hero-meta-item">✍️ <strong>Dr. Yusuf al-Qaradawi</strong></div>
+    <div class="hero-meta-item">📖 Al-Falah Foundation, 2004</div>
+    <div class="hero-meta-item">📄 Pages 3–41</div>
+  </div>
+</header>
+
+<!-- ═══════════ CONTENT ═══════════ -->
+<main class="content">
+
+  <!-- OUTLINE -->
+  <div class="outline">
+    <h3>Chapter Outline</h3>
+    <ol>
+      <li>Man in the sight of materialists</li>
+      <li>Man in the sight of the believers</li>
+      <li>Man's position before Allah</li>
+      <li>Man's position in respect to the angels</li>
+      <li>Man's position in this material world</li>
+      <li>The scholars of Islam extol man's position</li>
+      <li>The honor of Iman comes after the honor of humanity</li>
+      <li>Man between Islam and materialism</li>
+      <li>The nature of man — body and soul</li>
+      <li>The goal of man</li>
+    </ol>
+  </div>
+
+  <!-- OPENING AYA -->
+  <div class="section-verse">
+    <span class="arabic">وَلَقَدۡ كَرَّمۡنَا بَنِيٓ ءَادَمَ</span>
+    "We have honoured the sons of Adam; provided them with transport on land and sea; given them for sustenance things good and pure; and conferred on them special favours, above a great part of Our creation."
+    <span class="ref">— Surah al-Isra' (17:70)</span>
+  </div>
+
+  <!-- ═══ Section 1: Materialist View ═══ -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">1. Man in the Sight of Materialists</h2>
+    </div>
+    <p class="lead">What is man? According to materialists, he is part of the sand of this earth — created from earth, walking on it, eating from it, and buried in it.</p>
+    
+    <blockquote class="quote">
+      "He is a creature of no value or privilege over the other creatures. He is only one of the numerous living beings on this earth; rather, he belongs to the species of pests, insects, reptiles, and apes — he simply 'evolved' and became a man!"
+      <span class="attr">— Qaradawi summarizing the materialist worldview</span>
+    </blockquote>
+
+    <p>A startling illustration: if you break down a 140-pound human body into its chemical elements, you get enough fat for seven bars of soap, enough carbon for seven pencils, enough phosphorus for 120 match heads, enough iron for one medium pin, and enough water to fill a ten-gallon barrel — all purchasable for about fifty piasters.</p>
+
+    <p>A contemporary Arab atheist put it bluntly: <em>"We are only an outcome of nature, just like insects. We equal nothing more than ourselves, as do insects."</em></p>
+
+    <p>Darwin, in <em>The Origin of Species</em>, asserted that all living organisms — including man — pass through stages of modification and change, making man indistinguishable from plants, animals, or insects in principle.</p>
+
+    <div class="key-point">
+      "Is there anything more uninspiring to the human soul than this? It makes man look at himself as a base creature, an animal, a clot of clay or mud. It urges him to indulge in indecency and iniquity — rather it makes purity, decency, sacrifice, and seeking Allah's Pleasure seem strange and unnatural."
+    </div>
+  </div>
+
+  <div class="divider">❦</div>
+
+  <!-- ═══ Section 2: Believer's View ═══ -->
+  <div class="section">
+    <h2 class="section-title">2. Man in the Sight of the Believers</h2>
+    
+    <p class="lead">In the sight of the believers, man is a creature honoured by Allah — created in the best of molds, shaped beautifully by His own Hand, breathed into with His Spirit, and before whom the angels were commanded to prostrate.</p>
+
+    <div class="highlight-box">
+      <div class="label">Divine Address</div>
+      <p style="margin-bottom:0; font-style:italic; font-size:0.95rem;">
+        "O son of Adam! I created you for Myself and created all things for you. So, as it is My right over you, do not let yourself be distracted by that which I created for you from that which I created you for. O son of Adam! Ask for Me and you will find Me, and if you find Me you will have found everything — but if you lose Me you will have lost everything."
+      </p>
+    </div>
+
+    <p>While materialists see man as an atom in an endless desert of geological time, believers are certain that death is not the end — it is a transitional stop to eternity.</p>
+
+    <div class="section-verse">
+      <span class="arabic">ٱدۡخُلُوهَا بِسَلَـٰمٍۚ ذَٰلِكَ يَوۡمُ ٱلۡخُلُودِ</span>
+      "Peace be upon you! Enter ye here, to dwell therein."
+      <span class="ref">— Surah az-Zumar (39:73)</span>
+    </div>
+
+    <p>The very first revelation — the opening verses of Surah al-'Alaq — establishes man's relationship with his Lord through the twin themes of <strong>creation</strong> and <strong>teaching</strong>. The word "Rabb" (Lord) encompasses nurturing, caring, promotion, and perfection.</p>
+
+    <div class="section-verse">
+      <span class="arabic">ٱقۡرَأۡ بِٱسۡمِ رَبِّكَ ٱلَّذِي خَلَقَ  خَلَقَ ٱلۡإِنسَـٰنَ مِنۡ عَلَقٍ</span>
+      "Proclaim! (or Read!) in the name of thy Lord and Cherisher, Who created — created man, out of a (mere) clot of congealed blood: Proclaim! And thy Lord is Most Bountiful — He Who taught (the use of) the Pen — taught man that which he knew not."
+      <span class="ref">— Surah al-'Alaq (96:1–5)</span>
+    </div>
+  </div>
+
+  <div class="divider">❦</div>
+
+  <!-- ═══ Quick Reference: Man's Three Positions ═══ -->
+  <div class="section">
+    <h2 class="section-title">Man's Threefold Position</h2>
+    
+    <div class="pillars">
+      <div class="pillar">
+        <span class="num">۱</span>
+        <div class="label">Before Allah</div>
+        <div class="desc">Nearness without mediator. "We are nearer to him than his jugular vein." <em>(Qaf: 16)</em></div>
+      </div>
+      <div class="pillar">
+        <span class="num">۲</span>
+        <div class="label">Before the Angels</div>
+        <div class="desc">Allah's vicegerent on earth. Angels prostrated. "I know what ye know not."</div>
+      </div>
+      <div class="pillar">
+        <span class="num">۳</span>
+        <div class="label">In the Material World</div>
+        <div class="desc">Master for whom all things were subjected — sun, moon, seas, and earth.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ Divine Nearness ═══ -->
+  <div class="section">
+    <h2 class="section-title">3. Man's Position Before Allah</h2>
+
+    <div class="section-verse">
+      <span class="arabic">وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌۖ</span>
+      "When My servants ask thee concerning Me, I am indeed close (to them): I listen to the prayer of every supplicant when he calleth on Me."
+      <span class="ref">— Surah al-Baqarah (2:186)</span>
+    </div>
+
+    <p>This nearness eliminates the need for mediators and those who seek profit through religion — those who made themselves "doormen" at the gates of Allah's mercy.</p>
+
+    <div class="hadith-block">
+      "I am as My servant thinks I am, and I am with him whenever he remembers Me: if he remembers Me in himself, I remember him in Myself; if he remembers Me in a group, I remember him in a better group; if he draws near to Me a hand's span, I draw near to him an arm's length; and if he comes to Me walking, I go to him at speed."
+      <span class="attr">— Hadith Qudsi, narrated by al-Bukhari</span>
+    </div>
+
+    <p>This is man's position in the sight of Allah.</p>
+  </div>
+
+  <!-- ═══ Before Angels ═══ -->
+  <div class="section">
+    <h2 class="section-title">4. Man's Position in Respect to the Angels</h2>
+
+    <div class="section-verse">
+      "Behold, Thy Lord said to the angels: 'I will create a vicegerent on earth.' They said: 'Wilt Thou place therein one who will make mischief and shed blood? — whilst we do celebrate Thy praises and glorify Thee?' He said: 'I know what ye know not.' And He taught Adam the names of all things..."
+      <span class="ref">— Surah al-Baqarah (2:30–33)</span>
+    </div>
+
+    <p>Allah commanded the angels to greet this new creature by bowing before him in respect and glorification. <strong>Iblis</strong> alone refused — motivated by envy and conceit — and thus became man's sworn enemy.</p>
+  </div>
+
+  <!-- ═══ Material World ═══ -->
+  <div class="section">
+    <h2 class="section-title">5. Man's Position in This Material World</h2>
+
+    <p>Man stands as a <em>disposing master</em> to whose use all things have been subjected — as if the cosmos were "woven" for him and "cut out" to suit his size.</p>
+
+    <div class="section-verse">
+      "Do ye not see that Allah has subjected to your (use) all things in the heavens and on earth, and has made His bounties flow to you in exceeding measure, (both) seen and unseen?"
+      <span class="ref">— Surah Luqman (31:20)</span>
+    </div>
+
+    <p>But why was man given this supreme position, when the universe contains things far larger? It is the secret of the light derived from Allah's Light, the breath from His Spirit — preparing him for <strong>vicegerency</strong> and the Great Trust that the heavens, earth, and mountains refused to bear.</p>
+
+    <div class="section-verse">
+      "We did indeed offer the Trust to the Heavens and the Earth and the Mountains; but they refused to undertake it, being afraid thereof: but man undertook it..."
+      <span class="ref">— Surah al-Ahzab (33:72)</span>
+    </div>
+  </div>
+
+  <div class="divider">❦</div>
+
+  <!-- ═══ Scholars ═══ -->
+  <div class="section">
+    <h2 class="section-title">6. The Scholars of Islam Extol Man's Position</h2>
+
+    <blockquote class="quote">
+      "Allah the Almighty has never created a better creature than man, for He created him as living, knowledgeable, mighty, able to speak, able to see, able to dispose of his affairs, wise — and these are the attributes of the Lord (Glorified and Exalted be He)."
+      <span class="attr">— Abu Bakr ibn al-'Arabi</span>
+    </blockquote>
+
+    <p>Imam al-Ghazali, in his <em>Ihya' 'Ulum ad-Din</em>, explained that the harmony between man's entity and the Divine Attributes — knowledge, beneficence, benevolence, mercy, guidance — draws man near to Allah. The saying "Adopt Allah's morals" points to this profound connection.</p>
+
+    <blockquote class="quote">
+      "Allah favoured man with special gifts among His creatures. He honoured, preferred, and dignified him; created him for Himself and created all things for him; gave him out of His knowledge, love, nearness, and honouring that which He did not give to anyone else; subjected all things in the heavens and on earth to his use; used even His angels for his benefit..."
+      <span class="attr">— Imam ibn al-Qayyim, Madarij as-Salikin</span>
+    </blockquote>
+  </div>
+
+  <!-- ═══ Honor of Iman ═══ -->
+  <div class="section">
+    <h2 class="section-title">7. The Honor of Iman Comes After the Honor of Humanity</h2>
+
+    <p>These are the meanings of dignity from the viewpoint of being a "man." Yet as a <strong>believer</strong>, one feels deeper meanings — <em>iman</em> elevates man to a position that can never be reached by normal means.</p>
+
+    <div class="section-verse">
+      "But honour belongs to Allah and His Messenger, and to the believers."
+      <span class="ref">— Surah al-Munafiqun (63:8)</span>
+    </div>
+
+    <p>The believer feels protected, guided, and dignified — knowing that <em>"Allah is the Protector of those who believe."</em> (Muhammad: 11)</p>
+
+    <div class="highlight-box">
+      <div class="label">The Believer's Motto</div>
+      <p style="margin-bottom:0; font-size:1.1rem; font-weight:600; text-align:center;">
+        "I am a master in this universe<br>and a servant of Allah alone."
+      </p>
+    </div>
+
+    <p>This is why a black slave like <strong>Bilal ibn Rabah</strong> could stand above the arrogant masters of Quraysh, and why an illiterate Bedouin like <strong>Rib'i ibn 'Amir</strong> could stand before Rustum, the general of Persia, and declare:</p>
+
+    <blockquote class="quote">
+      "We are people sent by Allah to lead people away from the worship of creatures, to the worship of the Lord of creatures, alone; from the life of hardship to another life of ease; and from the injustice of doctrines to the justice of Islam."
+      <span class="attr">— Rib'i ibn 'Amir, addressing Rustum of Persia</span>
+    </blockquote>
+  </div>
+
+  <div class="divider">❦</div>
+
+  <!-- ═══ Islam vs Materialism ═══ -->
+  <div class="section">
+    <h2 class="section-title">8. Man Between Islam and Materialism</h2>
+    
+    <p>The contradiction between the two worldviews rests on <strong>three essential matters</strong>:</p>
+
+    <div class="contrast">
+      <div class="contrast-card dark">
+        <h4>🧬 Materialist View</h4>
+        <p>Man is a "wild plant" that emerges from non-existence by itself, lives by itself, dies by itself — an "evolved animal" with no roots before existence and no extension after death.</p>
+      </div>
+      <div class="contrast-card light">
+        <h4>🕌 Islamic View</h4>
+        <p>Man is Allah's vicegerent on earth, assigned to establish truth, serve goodness, and spread beauty — with the angels protecting him and the Lord of all with him.</p>
+      </div>
+    </div>
+
+    <div class="pillars">
+      <div class="pillar">
+        <span class="num">1</span>
+        <div class="label">Position</div>
+        <div class="desc">Vicegerent of Allah vs. evolved animal</div>
+      </div>
+      <div class="pillar">
+        <span class="num">2</span>
+        <div class="label">Nature</div>
+        <div class="desc">Body + Spirit vs. matter only</div>
+      </div>
+      <div class="pillar">
+        <span class="num">3</span>
+        <div class="label">Goal</div>
+        <div class="desc">Worship & eternity vs. worldly pleasure</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ Nature of Man ═══ -->
+  <div class="section">
+    <h2 class="section-title">9. The Nature of Man — The Dual Reality</h2>
+
+    <p>Man's nature is one of the most dangerous areas one may ever approach, for people inevitably go astray when dealing with it. Man is <strong>neither pure lust nor pure mind, neither pure body nor pure soul</strong> — his constitution contains both.</p>
+
+    <div class="section-verse">
+      <span class="arabic">أَلَا يَعۡلَمُ مَنۡ خَلَقَ وَهُوَ ٱللَّطِيفُ ٱلۡخَبِيرُ</span>
+      "Should He not know, He that created? And He is the One that understands the finest mysteries (and) is well acquainted (with them)."
+      <span class="ref">— Surah al-Mulk (67:14)</span>
+    </div>
+
+    <p><strong>Islam holds the middle ground.</strong> It has never neglected the spirit for the sake of clay, nor neglected the clay for the sake of spirit — but combines both in harmonious, congruous unity. The Prophet ﷺ himself fasted and broke fast, prayed at night and slept, married and had children.</p>
+
+    <p>Three paths have historically erred:</p>
+    <div class="contrast">
+      <div class="contrast-card dark">
+        <h4>🕉️ Brahminism & Celibacy</h4>
+        <p>Denied the body, tormented the flesh to "purify" the spirit.</p>
+      </div>
+      <div class="contrast-card light">
+        <h4>⚛️ Materialism</h4>
+        <p>Denied the soul, reduced man to animalistic instincts and chemical elements.</p>
+      </div>
+    </div>
+    <p style="text-align:center; font-weight:600; color:var(--accent); margin-top:16px;">Islam is the middle path — moderation without extremism.</p>
+  </div>
+
+  <!-- ═══ Goal of Man ═══ -->
+  <div class="section">
+    <h2 class="section-title">10. The Goal of Man</h2>
+
+    <p class="lead">Man was neither created in jest, nor was he left without purpose. He was created for a goal and a wisdom — and not just for himself.</p>
+
+    <div class="section-verse">
+      <span class="arabic">أَفَحَسِبۡتُمۡ أَنَّمَا خَلَقۡنَـٰكُمۡ عَبَثٗا وَأَنَّكُمۡ إِلَيۡنَا لَا تُرۡجَعُونَ</span>
+      "Did ye then think that We had created you in jest, and that ye would not be brought back to Us (for account)? Therefore exalted be Allah, the King, the Reality."
+      <span class="ref">— Surah al-Mu'minun (23:115–116)</span>
+    </div>
+
+    <p>Man was created <strong>to know Allah, worship Him, and be His vicegerent on earth</strong> — to undertake the greater Trust of duties and responsibilities, to go through trials and obligations, and thus be prepared for another life of eternity.</p>
+
+    <div class="highlight-box">
+      <div class="label">The Core Difference</div>
+      <p style="margin-bottom:0; font-size:1.05rem;">
+        Materialists say: <em>"Man lives for himself and for worldly pleasures."</em><br>
+        Believers say: <em>"Man lives for his Lord, the Most High, and for the next, everlasting life."</em>
+      </p>
+    </div>
+
+    <p>Al-Qaradawi closes with a devastating comparison: the existentialist is like a dog running in circles chasing its own tail — a game dogs play when they have nothing to do. The Qur'an presents the same parable for those who abandon Allah's verses and follow their own vain desires (al-A'raf: 175–177).</p>
+
+    <div class="section-verse">
+      "Those who reject Allah will enjoy (this world) and eat as cattle eat; and the Fire will be their abode."
+      <span class="ref">— Surah Muhammad (47:12)</span>
+    </div>
+  </div>
+
+  <div class="divider">❦</div>
+
+  <!-- ═══ Closing ═══ -->
+  <div class="section" style="text-align:center;">
+    <p style="font-family:'Playfair Display',serif; font-size:1.3rem; font-style:italic; color:var(--accent);">
+      "Whoever's goal is to satisfy his stomach and genitals,<br>he equals nothing more than what goes out of them."
+    </p>
+    <p style="font-size:0.85rem; color:var(--text-light); margin-top:24px;">
+      — An Arab man of letters, cited by al-Qaradawi
+    </p>
+  </div>
+
+</main>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer">
+  <p><strong>Qaradawi Library</strong> — قَرَضَاوِيّ مَكْتَبَة</p>
+  <p>Faith and Life · Chapter 1 · "Iman and the Dignity of Man"</p>
+  <p style="margin-top:8px; font-size:0.8rem;">Extracted from <em>Faith and Life</em> by Dr. Yusuf al-Qaradawi (1926–2022)<br>Al-Falah Foundation for Translation, Publication & Distribution, 2004</p>
+</footer>
+
+</body>
+</html>

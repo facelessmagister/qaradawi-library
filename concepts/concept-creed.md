@@ -11,6 +11,7 @@ sources:
 - raw/extracted/ethics-in-islam/ch-02.txt
 - raw/extracted/auspices-victory/ch-01.txt
 - raw/extracted/faith-and-life/ch-01.txt
+- raw/extracted/faith-and-life/ch-03.txt
 confidence: low
 ---
 
@@ -42,6 +43,10 @@ confidence: low
 ## Qaradawi's Treatment
 
 - [[faith-and-life-ch-01|Faith and Life — Chapter 1]]
+
+## Qaradawi's Treatment
+
+- [[faith-and-life-ch-03|Faith and Life — Chapter 3]]
 
 ## Related Concepts
 

@@ -319,7 +319,7 @@ books:
     extracted_at: '2026-05-16'
     chapters: 4
     ingested_at: '2026-05-16'
-    pages_created: 3
+    pages_created: 5
   auspices-victory:
     title: Auspices of the Ultimate Victory of Islam
     arabic_title: مقدمات النصر المبين للإسلام
@@ -391,6 +391,6 @@ stats:
   total_books: 16
   downloaded: 9
   extracted: 8
-  ingested: 0
-  total_wiki_pages: 0
+  ingested: 8
+  total_wiki_pages: 71
   last_updated: '2026-05-16'

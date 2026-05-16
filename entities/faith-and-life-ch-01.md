@@ -1,5 +1,5 @@
 ---
-title: Full Text (OCR quality — chapter boundaries unclear)
+title: Iman and the Dignity of Man
 created: '2026-05-16'
 updated: '2026-05-16'
 type: chapter
@@ -14,45 +14,44 @@ chapter: 1
 confidence: medium
 ---
 
-# Full Text (OCR quality — chapter boundaries unclear)
+# Iman and the Dignity of Man
 
 **Book:** [[faith-and-life-overview|Faith and Life]]
-**Chapter:** 1 of 1
+**Chapter:** 1 of 4
 
 ## Chapter Links
 - [[faith-and-life-overview|Book Overview]]
-- [[concept-hadith|Hadith (حَدِيث)]]
+- [[faith-and-life-ch-02|Chapter 2 →]]
 - [[concept-creed|Creed (عَقِيدَة)]]
+- [[concept-hadith|Hadith (حَدِيث)]]
+- [[concept-fasting|Fasting (صَوْم)]]
 - [[concept-prayer|Prayer (صَلَاة)]]
-- [[concept-intention|Intention (نِيَّة)]]
-- [[concept-character|Character (أَخْلَاق)]]
+- [[concept-purity|Purity (طَهَارَة)]]
 
 ## Key Concepts
 
 | Concept | Arabic | Frequency |
 |---------|--------|-----------|
-| [[concept-hadith|Hadith]] | حَدِيث | 18 |
-| [[concept-creed|Creed]] | عَقِيدَة | 15 |
-| [[concept-prayer|Prayer]] | صَلَاة | 8 |
-| [[concept-intention|Intention]] | نِيَّة | 8 |
-| [[concept-character|Character]] | أَخْلَاق | 7 |
-| [[concept-purity|Purity]] | طَهَارَة | 5 |
+| [[concept-creed|Creed]] | عَقِيدَة | 6 |
+| [[concept-hadith|Hadith]] | حَدِيث | 6 |
 | [[concept-fasting|Fasting]] | صَوْم | 4 |
-| [[concept-hajj|Hajj]] | حَجّ | 3 |
+| [[concept-prayer|Prayer]] | صَلَاة | 3 |
+| [[concept-purity|Purity]] | طَهَارَة | 3 |
+| [[concept-hajj|Hajj]] | حَجّ | 2 |
 
 ## Preview
 
 ```
-Islam and the Present Century Nea
-Sheikh Yusuf al-Qaradawi
-Edited     by:   Prof.    Ahlam       Fathi
-For Translation, Publication & Distribution
-© AL-FALAH     FOUNDATION      FOR TRANSLATION,
-PUBLICATION     & DISTRIBUTION      1425 / 2004.
-Prepared by: Al-Falah Foundation
-Cover designed by: Osama as-Sayed
-Technical supervisor: Said Faris
-General director: Sheikh Muhammad “Abdu
+Iman (Faith) and the Dignity of Man
+e Man in the sight of materialists
+e Man in the sight of the believers
+e Man's position before Allah
+e Man's position in respect to the angels
+e Man's position in this material world
+The scholars of Islam extol man's position
+e The honor of Jman comes after the honor
+e Man between Islam and materialism
+and        the Dignity          of Man
 ```
 
 ## Full Source
