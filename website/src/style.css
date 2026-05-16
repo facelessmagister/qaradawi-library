@@ -1,0 +1,385 @@
+/* ═══════════════════════════════════════════════════════════════
+   Qaradawi Library — Design System
+   Scholarly e-library theme: warm paper, amber accent, serif headings
+   Based on the Faith and Life ch-01 presentation design
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  --bg: #fdfaf5;
+  --surface: #ffffff;
+  --text: #1a1815;
+  --text-muted: #6b6560;
+  --text-light: #9a948e;
+  --accent: #8b6914;
+  --accent-light: #f5f0e3;
+  --accent-bg: #faf6ed;
+  --border: 1px solid rgba(0,0,0,0.07);
+  --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.02);
+  --shadow-lg: 0 4px 18px rgba(0,0,0,0.04), 0 2px 7px rgba(0,0,0,0.027), 0 0.8px 3px rgba(0,0,0,0.02);
+  --max-w: 720px;
+  --max-w-wide: 900px;
+  --verse: #5c4f1a;
+  --verse-bg: #fbf7ed;
+  --header-accent: #c4a035;
+  --coming-soon: #d4cfc6;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 17px; scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── NAVIGATION ── */
+.site-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(253,250,245,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: var(--border);
+  padding: 0;
+}
+.nav-inner {
+  max-width: var(--max-w-wide);
+  margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 24px;
+}
+.nav-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem; font-weight: 700; color: var(--text);
+  text-decoration: none; letter-spacing: -0.01em;
+}
+.nav-brand span { color: var(--accent); margin-left: 4px; font-size: 0.9rem; }
+.nav-links {
+  display: flex; gap: 24px; list-style: none; align-items: center;
+}
+.nav-links a {
+  font-size: 0.85rem; font-weight: 500; color: var(--text-muted);
+  text-decoration: none; transition: color 0.15s;
+}
+.nav-links a:hover, .nav-links a.active { color: var(--accent); }
+.nav-toggle { display: none; background: none; border: none; font-size: 1.4rem; color: var(--text); cursor: pointer; }
+
+/* ── HERO (Library Home) ── */
+.hero-library {
+  background: linear-gradient(180deg, #faf6ed 0%, #fdfaf5 60%, var(--bg) 100%);
+  padding: 72px 24px 48px;
+  text-align: center;
+  border-bottom: var(--border);
+}
+.hero-library h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem; font-weight: 800; line-height: 1.12;
+  letter-spacing: -0.03em; color: var(--text);
+  max-width: 600px; margin: 0 auto 8px;
+}
+.hero-library .arabic-title {
+  font-family: 'Noto Naskh Arabic', serif;
+  font-size: 1.6rem; color: var(--accent); font-weight: 600; margin-bottom: 12px;
+}
+.hero-library .subtitle {
+  font-size: 1.05rem; color: var(--text-muted); max-width: 540px; margin: 0 auto;
+}
+.hero-stats {
+  display: flex; gap: 24px; justify-content: center; margin-top: 28px; flex-wrap: wrap;
+}
+.stat-item { text-align: center; }
+.stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem; font-weight: 800; color: var(--accent); line-height: 1;
+}
+.stat-label { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; font-weight: 500; }
+
+/* ── HERO (Book Page) ── */
+.hero-book {
+  background: linear-gradient(180deg, #faf6ed 0%, #fdfaf5 60%, var(--bg) 100%);
+  padding: 56px 24px 36px; text-align: center; border-bottom: var(--border);
+}
+.hero-book .domain-badge {
+  display: inline-block; padding: 5px 14px; background: var(--accent-light);
+  color: var(--accent); border-radius: 9999px; font-size: 0.7rem; font-weight: 700;
+  letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 16px;
+}
+.hero-book h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.4rem; font-weight: 800; line-height: 1.15;
+  letter-spacing: -0.02em; margin-bottom: 8px;
+}
+.hero-book .arabic-title { font-size: 1.4rem; }
+.hero-book-meta {
+  display: flex; gap: 16px; justify-content: center; margin-top: 20px;
+  flex-wrap: wrap; font-size: 0.8rem; color: var(--text-light);
+}
+
+/* ── BREADCRUMB ── */
+.breadcrumb {
+  max-width: var(--max-w-wide); margin: 0 auto; padding: 16px 24px 0;
+  font-size: 0.8rem; color: var(--text-light);
+}
+.breadcrumb a { color: var(--text-muted); text-decoration: none; }
+.breadcrumb a:hover { color: var(--accent); }
+.breadcrumb span { margin: 0 6px; }
+
+/* ── CONTENT CONTAINER ── */
+.content { max-width: var(--max-w-wide); margin: 0 auto; padding: 32px 24px 80px; }
+
+/* ── BOOK GRID ── */
+.book-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;
+  margin: 32px 0;
+}
+.book-card {
+  background: var(--surface); border: var(--border); border-radius: 12px;
+  padding: 24px; box-shadow: var(--shadow); transition: box-shadow 0.2s, transform 0.15s;
+  text-decoration: none; display: block; color: inherit;
+}
+.book-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); }
+.book-card .card-domain {
+  display: inline-block; padding: 3px 10px; background: var(--accent-light);
+  color: var(--accent); border-radius: 9999px; font-size: 0.65rem; font-weight: 700;
+  letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 12px;
+}
+.book-card .card-arabic {
+  font-family: 'Noto Naskh Arabic', serif; font-size: 0.9rem; color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.book-card h3 {
+  font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700;
+  line-height: 1.25; margin-bottom: 8px; color: var(--text);
+}
+.book-card .card-meta { font-size: 0.78rem; color: var(--text-light); }
+.book-card .card-meta strong { color: var(--text-muted); }
+.book-card.coming-soon { opacity: 0.65; pointer-events: none; }
+.book-card.coming-soon .card-domain { background: #eee; color: var(--text-light); }
+
+/* ── SECTION HEADERS ── */
+.section-header { margin-bottom: 20px; }
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.55rem; font-weight: 700; line-height: 1.25;
+  color: var(--text); letter-spacing: -0.01em; margin-bottom: 6px;
+}
+.section-subtitle { font-size: 0.9rem; color: var(--text-muted); }
+
+/* ── CHAPTER LIST ── */
+.chapter-list { margin: 24px 0; }
+.chapter-row {
+  display: flex; align-items: baseline; padding: 14px 18px;
+  border-bottom: var(--border); transition: background 0.15s;
+  text-decoration: none; color: inherit; gap: 16px;
+}
+.chapter-row:hover { background: var(--accent-bg); }
+.chapter-row .ch-num {
+  font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700;
+  color: var(--accent); min-width: 40px;
+}
+.chapter-row .ch-title {
+  font-size: 0.95rem; color: var(--text); flex: 1; font-weight: 500;
+}
+.chapter-row .ch-arrow { color: var(--text-light); font-size: 0.8rem; }
+
+/* ── CHAPTER CONTENT ── */
+.section { margin-bottom: 48px; }
+p { margin-bottom: 14px; font-size: 0.98rem; color: var(--text); line-height: 1.72; }
+p.lead { font-size: 1.15rem; font-weight: 500; line-height: 1.6; }
+
+/* ── QURANIC VERSE ── */
+.section-verse {
+  margin: 22px 0; padding: 18px 22px; background: var(--verse-bg);
+  border-left: 3px solid var(--header-accent); border-radius: 0 8px 8px 0;
+  font-size: 1.02rem; line-height: 1.78; color: var(--verse);
+}
+.section-verse .arabic {
+  font-family: 'Noto Naskh Arabic', serif; font-size: 1.12rem;
+  display: block; margin-bottom: 10px; color: var(--accent); font-weight: 600;
+}
+.section-verse .ref {
+  display: block; font-size: 0.72rem; color: var(--text-light);
+  margin-top: 8px; font-weight: 500; letter-spacing: 0.02em;
+}
+
+/* ── HIGHLIGHT BOX ── */
+.highlight-box {
+  margin: 26px 0; padding: 20px 24px; background: var(--surface);
+  border: var(--border); border-radius: 12px; box-shadow: var(--shadow);
+}
+.highlight-box .label {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 8px;
+}
+
+/* ── KEY POINT ── */
+.key-point {
+  margin: 22px 0; padding: 16px 20px; background: var(--surface);
+  border: var(--border); border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0; font-size: 1.02rem; font-weight: 500;
+  color: var(--text); line-height: 1.6;
+}
+
+/* ── BLOCKQUOTE ── */
+blockquote.quote {
+  margin: 26px 0; padding: 18px 22px; background: var(--accent-bg);
+  border-radius: 8px; font-style: italic; color: var(--text-muted);
+  font-size: 0.93rem; line-height: 1.65;
+}
+blockquote.quote .attr {
+  display: block; margin-top: 10px; font-size: 0.78rem; font-weight: 600;
+  font-style: normal; color: var(--accent);
+}
+
+/* ── HADITH ── */
+.hadith-block {
+  margin: 22px 0; padding: 20px 22px; background: #faf6ed;
+  border-radius: 10px; font-size: 0.93rem; line-height: 1.7; color: var(--text-muted);
+}
+.hadith-block .attr {
+  display: block; margin-top: 10px; font-size: 0.73rem; font-weight: 600;
+  color: var(--accent); font-style: normal;
+}
+
+/* ── TOPIC PILLS / CONCEPTS ── */
+.topic-pills {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0;
+}
+.topic-pill {
+  display: inline-block; padding: 4px 12px; background: var(--accent-light);
+  color: var(--accent); border-radius: 9999px; font-size: 0.73rem;
+  font-weight: 600; letter-spacing: 0.02em; text-decoration: none;
+  transition: background 0.15s;
+}
+.topic-pill:hover { background: #e8dfca; }
+
+/* ── DOMAIN GROUP ── */
+.domain-group { margin-bottom: 32px; }
+.domain-group h3 {
+  font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--text);
+  margin-bottom: 12px; font-weight: 700;
+}
+
+/* ── CONTRAST CARDS ── */
+.contrast {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 26px 0;
+}
+.contrast-card {
+  padding: 18px 20px; border-radius: 10px; border: var(--border);
+}
+.contrast-card.dark { background: #f0ebe0; }
+.contrast-card.light { background: var(--surface); box-shadow: var(--shadow); }
+.contrast-card h4 { font-family: 'Playfair Display',serif; font-size: 1rem; margin-bottom: 8px; font-weight: 700; }
+.contrast-card p { font-size: 0.84rem; color: var(--text-muted); margin-bottom: 0; }
+
+/* ── PILLARS ── */
+.pillars {
+  display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin: 30px 0;
+}
+.pillar {
+  text-align: center; padding: 22px 14px; background: var(--surface);
+  border: var(--border); border-radius: 10px; box-shadow: var(--shadow);
+}
+.pillar .num {
+  display: block; font-family: 'Playfair Display',serif;
+  font-size: 2rem; font-weight: 800; color: var(--accent); line-height: 1; margin-bottom: 6px;
+}
+.pillar .label { font-size: 0.8rem; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+.pillar .desc { font-size: 0.73rem; color: var(--text-muted); line-height: 1.4; }
+
+/* ── DIVIDER ── */
+.divider {
+  text-align: center; margin: 44px 0; color: var(--accent);
+  font-family: 'Playfair Display',serif; font-size: 1.5rem; letter-spacing: 0.15em;
+}
+
+/* ── PREVIEW TEXT ── */
+.preview-block {
+  margin: 20px 0; padding: 16px 20px; background: var(--surface);
+  border: var(--border); border-radius: 8px; font-size: 0.88rem;
+  color: var(--text-muted); line-height: 1.65; white-space: pre-wrap;
+  font-family: 'Inter', serif; max-height: 300px; overflow-y: auto;
+}
+
+/* ── OUTLINE ── */
+.outline {
+  background: var(--surface); border: var(--border); border-radius: 12px;
+  padding: 26px 30px; margin-bottom: 44px; box-shadow: var(--shadow);
+}
+.outline h3 { font-family: 'Playfair Display',serif; font-size: 1.15rem; margin-bottom: 14px; font-weight: 700; }
+.outline ol { list-style: none; counter-reset: outline; }
+.outline li {
+  counter-increment: outline; padding: 5px 0; font-size: 0.88rem;
+  color: var(--text-muted); border-bottom: var(--border);
+}
+.outline li:last-child { border-bottom: none; }
+.outline li::before { content: counter(outline) "."; color: var(--accent); font-weight: 600; margin-right: 10px; }
+
+/* ── CHAPTER NAV ── */
+.chapter-nav {
+  display: flex; justify-content: space-between; align-items: center;
+  margin: 40px 0 20px; padding: 16px 0; border-top: var(--border); border-bottom: var(--border);
+}
+.chapter-nav a {
+  font-size: 0.85rem; color: var(--accent); text-decoration: none; font-weight: 500;
+  transition: color 0.15s;
+}
+.chapter-nav a:hover { color: var(--text); }
+
+/* ── BUTTONS ── */
+.btn {
+  display: inline-block; padding: 8px 18px; border-radius: 6px;
+  font-size: 0.82rem; font-weight: 600; text-decoration: none;
+  cursor: pointer; transition: all 0.15s; border: var(--border);
+}
+.btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+.btn-primary:hover { background: #7a5c11; }
+.btn-ghost { background: transparent; color: var(--accent); border-color: var(--accent); }
+.btn-ghost:hover { background: var(--accent-light); }
+
+/* ── FOOTER ── */
+.site-footer {
+  max-width: var(--max-w-wide); margin: 0 auto; padding: 36px 24px 56px;
+  text-align: center; border-top: var(--border);
+}
+.site-footer p { font-size: 0.82rem; color: var(--text-light); margin-bottom: 4px; }
+.site-footer a { color: var(--accent); text-decoration: none; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 640px) {
+  html { font-size: 15px; }
+  .nav-links { display: none; }
+  .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: var(--surface); border-bottom: var(--border); padding: 16px 24px; gap: 12px; box-shadow: var(--shadow-lg); }
+  .nav-toggle { display: block; }
+  .hero-library { padding: 48px 16px 32px; }
+  .hero-library h1 { font-size: 2rem; }
+  .hero-library .arabic-title { font-size: 1.2rem; }
+  .hero-book { padding: 40px 16px 28px; }
+  .hero-book h1 { font-size: 1.8rem; }
+  .book-grid { grid-template-columns: 1fr; }
+  .contrast { grid-template-columns: 1fr; }
+  .pillars { grid-template-columns: 1fr; }
+  .content { padding: 24px 16px 60px; }
+  .outline { padding: 18px 16px; }
+  .section-title { font-size: 1.3rem; }
+}
+
+/* ── DARK MODE ── */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1815; --surface: #24211c; --text: #e8e4dd;
+    --text-muted: #b5aea5; --text-light: #8a827b; --accent: #c4a035;
+    --accent-light: #3d3520; --accent-bg: #2a2520;
+    --border: 1px solid rgba(255,255,255,0.06);
+    --shadow: 0 1px 3px rgba(0,0,0,0.2);
+    --shadow-lg: 0 4px 18px rgba(0,0,0,0.3);
+    --verse: #d4cba0; --verse-bg: #252018; --header-accent: #c4a035;
+    --coming-soon: #5a5550;
+  }
+  .site-nav { background: rgba(26,24,21,0.92); }
+  .hero-library, .hero-book { background: linear-gradient(180deg, #252018 0%, #1f1c17 60%, var(--bg) 100%); }
+  .contrast-card.dark { background: #2a2420; }
+  .hadith-block { background: #252018; }
+  .book-card.coming-soon .card-domain { background: #333; }
+}
