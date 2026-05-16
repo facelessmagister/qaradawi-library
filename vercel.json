@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "outputDirectory": "website/dist",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/books/:book/ch-:num", "destination": "/books/:book/ch-:num/" },
+    { "source": "/topics/:slug", "destination": "/topics/:slug/" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    }
+  ]
+}
