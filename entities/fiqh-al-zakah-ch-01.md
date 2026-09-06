@@ -1,5 +1,5 @@
 ---
-title: Zakatable Assets .........................................................................
+title: Zakatable Assets
   53
 created: '2026-05-16'
 updated: '2026-05-16'
@@ -23,7 +23,7 @@ confidence: medium
 ## Chapter Links
 - [[fiqh-al-zakah-overview|Book Overview]]
 - [[fiqh-al-zakah-ch-02|Chapter 2 →]]
-- [[concept-zakah|Zakah (زَكَاة)]]
+- [[concept-zakat|Zakah (زَكَاة)]]
 - [[concept-zakat|Zakat (زَكَاة)]]
 - [[concept-sunnah|Sunnah (سُنَّة)]]
 - [[concept-prayer|Prayer (صَلَاة)]]
@@ -32,32 +32,14 @@ confidence: medium
 
 | Concept | Arabic | Frequency |
 |---------|--------|-----------|
-| [[concept-zakah|Zakah]] | زَكَاة | 197 |
+| [[concept-zakat|Zakah]] | زَكَاة | 197 |
 | [[concept-zakat|Zakat]] | زَكَاة | 103 |
 | [[concept-sunnah|Sunnah]] | سُنَّة | 7 |
 | [[concept-prayer|Prayer]] | صَلَاة | 2 |
 
-## Preview
+## Summary
 
-```
-The Qur'an does not give the definition of zakatable wealth nor does it provide the
-required percentages in zakah. It is left to Sunnah to give, by example or by directives,
-details of the general Qur'anic command and to convert the theoretical axioms of the
-Qur'an into a living reality in human life. The Prophet (p) was assigned this
-responsibility and he is the one who knows most about what God ordains in His Holy
-Book. God says, "And we have sent down unto thee the message that thou mayest
-explain clearly to people what is sent for them and that they may give thought."1 It must
-be realized, however, that the Qur'an mentions a few kinds of zakatable assets, such as
-(1) gold and silver, in the verse "and there are those who hoard gold and silver and
-spend it not in the way of God. Announc
-```
+Chapter 1 of Fiqh al-Zakah establishes the foundational framework for determining which categories of wealth are subject to zakah. Al-Qaradawi begins by noting that while the Qur'an commands zakah in general terms, it leaves to the Sunnah the specification of zakatable assets, their nisab thresholds, and applicable rates. The Qur'an does, however, explicitly mention several categories: gold and silver, crops and fruits, earnings from trade, and mineral wealth extracted from the earth. Beyond these, the Qur'an legislates zakah on wealth (amwal) in general, invoking the right of the needy. The chapter then provides an in-depth analysis of the term mal (plural amwal) in both its linguistic and juridical senses. Hanafi jurists define mal as any material thing that can be acquired and conventionally used, thereby excluding services and non-material rights, while the Shafi'i, Maliki, and Hanbali schools include utilities as mal. Al-Qaradawi sides with the Hanafi position, arguing that zakah applies only to material assets since it cannot be collected from utilities and distributed to recipients. The chapter further introduces the conditions for zakatability, beginning with the requirement of undivided and absolute ownership. Drawing on Qur'anic verses that attribute wealth both to God as ultimate owner and to humans as vicegerents, al-Qaradawi distinguishes between divine sovereignty and the human right of disposition, establishing that zakah is only obligatory when the owner possesses full authority to dispose of the asset—excluding assets under lien, stolen property, or merchandise not yet received.
 
 ## Full Source
 See `raw/extracted/fiqh-al-zakah/ch-01.txt` for complete text.
-
----
-
-*Extracted from Fiqh al-Zakah (2 Volumes) — Chapter 1*
-- See also: [[fiqh-al-zakah-ch-08|Zakatable Assets ......................................................................... 53]]
-- See also: [[auspices-victory-ch-01|Zakatable Assets ......................................................................... 53]]
-- See also: [[faith-and-life-ch-01|Zakatable Assets ......................................................................... 53]]

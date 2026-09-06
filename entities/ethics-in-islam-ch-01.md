@@ -1,7 +1,7 @@
 ---
-title: Chapter 1
-created: '2026-05-16'
-updated: '2026-05-16'
+title: 'Ethics in Islam: Definition, Philosophy, Status, Objectives, and Methods'
+created: '2026-06-09'
+updated: '2026-06-09'
 type: chapter
 tags:
 - islamic-ethics
@@ -14,57 +14,50 @@ chapter: 1
 confidence: medium
 ---
 
-# Chapter 1
+# Ethics in Islam: Definition, Philosophy, Status, Objectives, and Methods
 
 **Book:** [[ethics-in-islam-overview|Ethics in Islam]]
 **Chapter:** 1 of 4
 
+### Subsections
+
+- **Introduction** → `raw/extracted/ethics-in-islam/section-00.txt`
+- **Definitions And Concepts Of Islamic Ethics** → `raw/extracted/ethics-in-islam/section-01-01.txt`
+- **The Status Of Ethics In Islam** → `raw/extracted/ethics-in-islam/section-01-02.txt`
+- **Higher Objectives And Goals Of Islamic Ethics** → `raw/extracted/ethics-in-islam/section-01-03.txt`
+- **Methods Of Achieving The Objectives Of Ethics** → `raw/extracted/ethics-in-islam/section-01-04.txt`
+- **Effects Of Faith-Based Education On Controlling Instincts And Habits** → `raw/extracted/ethics-in-islam/section-01-05.txt`
+- **The Need For The Islamic Community And Islamic Regime** → `raw/extracted/ethics-in-islam/section-01-06.txt`
+
 ## Chapter Links
 - [[ethics-in-islam-overview|Book Overview]]
-- [[ethics-in-islam-ch-02|Chapter 2 →]]
+- [[concept-ethics|Ethics (أَخْلَاق)]]
+- [[concept-art|Art (فَنّ)]]
+- [[concept-faith|Faith (إِيمَان)]]
 - [[concept-character|Character (أَخْلَاق)]]
-- [[concept-prayer|Prayer (صَلَاة)]]
-- [[concept-hadith|Hadith (حَدِيث)]]
-- [[concept-sunnah|Sunnah (سُنَّة)]]
-- [[concept-zakat|Zakat (زَكَاة)]]
+- [[concept-justice|Justice (عَدْل)]]
 
 ## Key Concepts
 
 | Concept | Arabic | Frequency |
 |---------|--------|-----------|
-| [[concept-character|Character]] | أَخْلَاق | 86 |
+| [[concept-ethics|Ethics]] | أَخْلَاق | 222 |
+| [[concept-art|Art]] | فَنّ | 172 |
+| [[concept-faith|Faith]] | إِيمَان | 159 |
+| [[concept-character|Character]] | أَخْلَاق | 88 |
+| [[concept-justice|Justice]] | عَدْل | 60 |
+| [[concept-hadith|Hadith]] | حَدِيث | 44 |
 | [[concept-prayer|Prayer]] | صَلَاة | 42 |
-| [[concept-hadith|Hadith]] | حَدِيث | 40 |
-| [[concept-sunnah|Sunnah]] | سُنَّة | 35 |
-| [[concept-zakat|Zakat]] | زَكَاة | 31 |
-| [[concept-fasting|Fasting]] | صَوْم | 22 |
-| [[concept-marriage|Marriage]] | نِكَاح | 19 |
-| [[concept-jihad|Jihad]] | جِهَاد | 13 |
+| [[concept-sunnah|Sunnah]] | سُنَّة | 40 |
 
-## Preview
+## Summary
 
-```
-Ethics in Islam: Definition, Philosophy, Status,
-Objectives, and Methods
-16                                           Ethics in Islam
-1.1 Definitions And Concepts Of Islamic Ethics
-Literal Definitions Of Ethics
-The Arabic word for “ethics” is ‫( أخالق‬pronounced akhlāq), which is the plural of
-‫( ُخلُق‬pronounced khuluq). The singular form is the one used in the Holy Qur’an as
-a descriptor of the Prophet (PBUH): “And indeed, you are of a great moral char-
-acter” (68:4). In this verse, the phrase “moral character” is used to translate the
-The word ‫( ُخلُق‬khuluq) seems to be derived from the same root as ‫( َخلْق‬pro-
-```
+This opening chapter establishes the conceptual foundations of Islamic ethics (*akhlaq*), defining the term through its Arabic lexicographic roots and tracing its semantic evolution from *khuluq* (innate moral character) to the broader philosophical concept of ethics as a system of willful, recurrent moral dispositions. Al-Qaradawi engages critically with definitions offered by Al-Ghazali, Ibn Miskawayh, Al-Raghib Al-Asfahani, and Professor Mohammed Abdallah Draz, favoring Draz's refinement that distinguishes moral traits from involuntary intellectual or aesthetic capacities. The chapter affirms Islam's elevated status for ethics — the Prophet was sent "to perfect good morals" — and demonstrates that moral values in Islam are inseparable from faith, acts of worship, and social conduct. It identifies the higher objectives (*maqasid*) of Islamic ethics as the cultivation of virtue, the restraint of vice, and the establishment of justice across individual and communal life. Methods for achieving these objectives include faith-based education, divine revelation, rational reflection, and institutional frameworks within an Islamic social order. The chapter concludes by arguing that Islamic ethics cannot function in isolation from a comprehensive Islamic system, emphasizing that a holistic Shari'a-based framework is necessary for moral values to flourish in society.
 
 ## Full Source
 See `raw/extracted/ethics-in-islam/ch-01.txt` for complete text.
 
 ---
 
-*Extracted from Ethics in Islam — Chapter 1*
-- See also: [[education-economy-sunnah-ch-01|Chapter 1]]
-- See also: [[faith-and-life-ch-01|Chapter 1]]
-- See also: [[education-economy-sunnah-ch-02|Chapter 1]]
-- See also: [[fiqh-al-zakah-ch-01|Chapter 1]]
-- See also: [[fiqh-al-zakah-ch-08|Chapter 1]]
-- See also: [[auspices-victory-ch-01|Chapter 1]]
+*Extracted from Ethics in Islam — Ethics in Islam: Definition, Philosophy, Status, Objectives, and Methods*
+- [[ethics-in-islam-ch-02|Chapter 2 →]]

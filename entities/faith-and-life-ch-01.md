@@ -39,20 +39,9 @@ confidence: medium
 | [[concept-purity|Purity]] | طَهَارَة | 3 |
 | [[concept-hajj|Hajj]] | حَجّ | 2 |
 
-## Preview
+## Summary
 
-```
-Iman (Faith) and the Dignity of Man
-e Man in the sight of materialists
-e Man in the sight of the believers
-e Man's position before Allah
-e Man's position in respect to the angels
-e Man's position in this material world
-The scholars of Islam extol man's position
-e The honor of Jman comes after the honor
-e Man between Islam and materialism
-and        the Dignity          of Man
-```
+This opening chapter of *Faith and Life* establishes the foundational contrast between materialist and Islamic conceptions of human dignity. Al-Qaradawi begins by surveying the reductive view of man advanced by materialist philosophies—from Darwinian evolution to Freudian psychoanalysis—which reduce the human being to mere matter, an evolved animal devoid of inherent worth. He cites the materialist calculation of the human body's chemical value (a few piasters) to illustrate the moral vacuum this worldview creates. Against this, the chapter presents the Qur'anic vision: Allah honored the children of Adam (Q. 17:70), created man with His own Hand, breathed His Spirit into him, and made the angels prostrate before him. Man is thus Allah's vicegerent on earth, the pivot of cosmic activity, for whose benefit all things in the heavens and on earth were subjected. The chapter argues that true human dignity is not automatic but is realized through *iman* (faith): the honor of faith comes after the honor of humanity, and it is faith that elevates man above his material constitution. Scholastic authorities cited include al-Ghazali and other classical scholars who extolled man's spiritual station. The chapter concludes by situating man between Islam and materialism, demonstrating that only a faith-based anthropology can sustain moral responsibility and spiritual aspiration.
 
 ## Full Source
 See `raw/extracted/faith-and-life/ch-01.txt` for complete text.

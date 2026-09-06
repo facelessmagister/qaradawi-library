@@ -24,7 +24,7 @@ confidence: medium
 - [[education-economy-sunnah-ch-02|Chapter 2 →]]
 - [[concept-sunnah|Sunnah (سُنَّة)]]
 - [[concept-hadith|Hadith (حَدِيث)]]
-- [[concept-zakah|Zakah (زَكَاة)]]
+- [[concept-zakat|Zakah (زَكَاة)]]
 - [[concept-jihad|Jihad (جِهَاد)]]
 - [[concept-prayer|Prayer (صَلَاة)]]
 
@@ -34,26 +34,15 @@ confidence: medium
 |---------|--------|-----------|
 | [[concept-sunnah|Sunnah]] | سُنَّة | 48 |
 | [[concept-hadith|Hadith]] | حَدِيث | 44 |
-| [[concept-zakah|Zakah]] | زَكَاة | 3 |
+| [[concept-zakat|Zakah]] | زَكَاة | 3 |
 | [[concept-jihad|Jihad]] | جِهَاد | 3 |
 | [[concept-prayer|Prayer]] | صَلَاة | 2 |
 | [[concept-fasting|Fasting]] | صَوْم | 2 |
 | [[concept-character|Character]] | أَخْلَاق | 2 |
 
-## Preview
+## Summary
 
-```
-The Sunnah and Education
-The Sunnah and Education
-Thave studied the issue of knowledge, learning and teaching in the
-light of the Sunnah"), j., through the two main            ‘ions of the Aadiths
-of the Prophet Muhammad (Peace be upon him): The Sound Hadith
-(Hadith Sahih)” and the Good Hadith (Hadith Hasan).°) This study
-came out in my book The Prophet and Knowledge, and 1 could see
-how the Prophet (Peace be upon him) - even though being illiterate -
-cared about knowledge and praised scholars. He even set basics for the
-morals that should control the behavior of scholars and guide them
-```
+Chapter 1 examines the Prophetic approach to education as preserved in the Sunnah, drawing on Sound (Sahih) and Good (Hasan) hadith traditions. Al-Qaradawi demonstrates that the Prophet Muhammad (peace be upon him), despite being unlettered, established comprehensive educational principles that anticipate many values attributed to modern pedagogy. The chapter catalogues nineteen distinct educational guidelines derived from Prophetic practice, ranging from the obligation of seeking knowledge and sincerity of intention (niyyah), to pedagogical methods such as gradual instruction, employing similitudes and stories, and using questions to engage learners. A central principle emphasized is the accommodation of individual differences — the Prophet tailored his counsel to each questioner's temperament, circumstances, and capacity, much as a physician prescribes different remedies to different patients. He likewise gave varying answers to the same question depending on the inquirer's condition, and imposed different obligations based on individual ability. The author argues that these Prophetic precedents constitute an advanced educational philosophy that recognizes the diversity of human aptitudes, environments, and developmental stages, offering a model of differentiated instruction rooted in revelation and Prophetic practice rather than in secular modern theory.
 
 ## Full Source
 See `raw/extracted/education-economy-sunnah/ch-01.txt` for complete text.
@@ -61,7 +50,3 @@ See `raw/extracted/education-economy-sunnah/ch-01.txt` for complete text.
 ---
 
 *Extracted from Education and Economy in the Sunnah — Chapter 1*
-- See also: [[faith-and-life-ch-01|Chapter 1]]
-- See also: [[fiqh-al-zakah-ch-01|Chapter 1]]
-- See also: [[auspices-victory-ch-01|Chapter 1]]
-- See also: [[fiqh-al-zakah-ch-08|Chapter 1]]

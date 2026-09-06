@@ -1,7 +1,7 @@
 ---
-title: The Importance of Zakat in
+title: The Importance of Zakat in the Islamic Economic System
 created: '2026-05-16'
-updated: '2026-05-16'
+updated: '2026-06-09'
 type: chapter
 tags:
 - fiqh-muamalat
@@ -15,7 +15,7 @@ chapter: 4
 confidence: medium
 ---
 
-# The Importance of Zakat in
+# The Importance of Zakat in the Islamic Economic System
 
 **Book:** [[economic-security-overview|Economic Security in Islam]]
 **Chapter:** 4 of 7
@@ -41,46 +41,9 @@ confidence: medium
 | [[concept-consensus|Consensus]] | إِجْمَاع | 6 |
 | [[concept-character|Character]] | أَخْلَاق | 6 |
 
-## Preview
+## Summary
 
-```
-THE   IMPOREFANCE OF ZAKAT IN THE
-ISLAMIC ECONOMIC SYSTEM
-Islam has enjoined every sane person to earn
-his living earnestly for himself, for his family and
-to spend also on the poor and in the way of Allah
-and on those who are unable to work. The main-
-tenance of a person who is unable to earn for
-himself or for his family and does not own any
-property to fulfil his basic necessities of life is the
-obligation of his prosperous kins. But each and
-```
+This longest and most detailed chapter constitutes the treatise's core argument: that zakat—obligatory poor-due—is the centrepiece of Islam's economic security architecture. Qaradawi opens by establishing that where family maintenance fails, the community becomes responsible, and where the community falls short, the state must act through zakat. The chapter then expounds zakat's technical rulings: one-tenth or one-twentieth on agricultural produce depending on irrigation method; 2.5 percent on cash and commercial goods above the nisab threshold; graduated rates on livestock; one-fifth on excavated treasure and mineral wealth (with juristic debate over whether this follows zakat or kharaj distribution rules); and Zakat al-Fitr, a per-capita levy in kind before the Eid prayer, serving both as expiation for fasting deficiencies and as a universal training in generosity. Qaradawi emphasises zakat's distinctive features: it is not voluntary charity but a legally enforceable right of the poor; it is collected and distributed by the state, not left to individual discretion; it purifies remaining wealth while satisfying the destitute; and it has operated continuously for over fourteen centuries without generating resentment among either givers or recipients. The chapter thus positions zakat as an institutional social-security mechanism that is at once theological obligation, fiscal instrument, and moral discipline—one that capitalism's insurance schemes and socialism's redistributive expropriation cannot replicate in their purely materialist frameworks.
 
 ## Full Source
 See `raw/extracted/economic-security/ch-04.txt` for complete text.
-
----
-
-*Extracted from Economic Security in Islam — Chapter 4*
-- See also: [[fiqh-al-zakah-ch-03|The Importance of Zakat in]]
-- See also: [[approaching-the-sunnah-ch-01|The Importance of Zakat in]]
-- See also: [[approaching-the-sunnah-ch-03|The Importance of Zakat in]]
-- See also: [[diversion-arts-ch-01|The Importance of Zakat in]]
-- See also: [[ethics-in-islam-ch-01|The Importance of Zakat in]]
-- See also: [[education-economy-sunnah-ch-01|The Importance of Zakat in]]
-- See also: [[faith-and-life-ch-01|The Importance of Zakat in]]
-- See also: [[ethics-in-islam-ch-02|The Importance of Zakat in]]
-- See also: [[fiqh-al-zakah-ch-04|The Importance of Zakat in]]
-- See also: [[fiqh-al-zakah-ch-06|The Importance of Zakat in]]
-- See also: [[fiqh-al-zakah-ch-09|The Importance of Zakat in]]
-- See also: [[ethics-in-islam-ch-04|The Importance of Zakat in]]
-- See also: [[economic-security-ch-07|The Importance of Zakat in]]
-- See also: [[fiqh-al-zakah-ch-10|The Importance of Zakat in]]
-- See also: [[economic-security-ch-02|The Importance of Zakat in]]
-- See also: [[fiqh-al-zakah-ch-05|The Importance of Zakat in]]
-- See also: [[fiqh-al-zakah-ch-07|The Importance of Zakat in]]
-- See also: [[education-economy-sunnah-ch-02|The Importance of Zakat in]]
-- See also: [[fiqh-al-zakah-ch-01|The Importance of Zakat in]]
-- See also: [[fiqh-al-zakah-ch-08|The Importance of Zakat in]]
-- See also: [[economic-security-ch-06|The Importance of Zakat in]]
-- See also: [[auspices-victory-ch-01|The Importance of Zakat in]]

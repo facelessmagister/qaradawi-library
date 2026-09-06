@@ -1,7 +1,7 @@
 ---
-title: Islamic Measures Other than
+title: Islamic Measures Other than Zakat to Satisfy Want
 created: '2026-05-16'
-updated: '2026-05-16'
+updated: '2026-06-09'
 type: chapter
 tags:
 - fiqh-muamalat
@@ -15,7 +15,7 @@ chapter: 5
 confidence: medium
 ---
 
-# Islamic Measures Other than
+# Islamic Measures Other than Zakat to Satisfy Want
 
 **Book:** [[economic-security-overview|Economic Security in Islam]]
 **Chapter:** 5 of 7
@@ -40,39 +40,9 @@ confidence: medium
 | [[concept-prayer|Prayer]] | صَلَاة | 2 |
 | [[concept-pilgrimage|Pilgrimage]] | حَجّ | 2 |
 
-## Preview
+## Summary
 
-```
-ISLAMIC MEASURES OTHER THAN
-ZAKAT TO SATISFY WANTS
-There are more     wealth rights which are
-obligatory for the Muslims under various conditions.
-These    are   in addition   to    the       Poor-due,   and are
-Rights of Neighbour : God has commanded in
-the Holy Qur’4n to look after the rights of the
-neighbour.     The Holy Prophet (peace and blessings
-of Allah be upon him) has persuaded the Muslims
-to fulfil the rights of the neighbour, and is contained
-```
+Beyond the institutional framework of zakat, Islam mandates numerous supplementary wealth-transfer mechanisms that reinforce the economic security net. Qaradawi catalogues these obligations thematically. Neighbourly rights receive particular emphasis: the Qur'an (4:36) and multiple sound traditions command Muslims to honour, feed, and shelter their neighbours—defined as forty houses in each direction—with the Prophet declaring that a person whose neighbour goes hungry is no true believer. The chapter then examines ritual and expiatory obligations that double as redistribution channels: Eid al-Adha sacrifice (oblatory for every solvent Muslim per Abu Hanifa), oath-breaking expiation (feeding ten persons, clothing them, or freeing a slave), zihar expiation (freeing a slave, fasting two consecutive months, or feeding sixty poor), Ramadan daytime-intimacy expiation, and fidya for the elderly or chronically ill who cannot fast. Each mechanism channels wealth from the solvent to the indigent while simultaneously serving a spiritual or disciplinary purpose, embedding redistribution into the rhythm of daily, seasonal, and situational religious life. The chapter thus demonstrates that Islamic economic security is not confined to a single annual levy but permeates the entire fabric of worship, neighbourly conduct, and personal morality.
 
 ## Full Source
 See `raw/extracted/economic-security/ch-05.txt` for complete text.
-
----
-
-*Extracted from Economic Security in Islam — Chapter 5*
-- See also: [[ethics-in-islam-ch-04|Islamic Measures Other than]]
-- See also: [[economic-security-ch-07|Islamic Measures Other than]]
-- See also: [[fiqh-al-zakah-ch-10|Islamic Measures Other than]]
-- See also: [[economic-security-ch-02|Islamic Measures Other than]]
-- See also: [[fiqh-al-zakah-ch-05|Islamic Measures Other than]]
-- See also: [[fiqh-al-zakah-ch-07|Islamic Measures Other than]]
-- See also: [[ethics-in-islam-ch-01|Islamic Measures Other than]]
-- See also: [[education-economy-sunnah-ch-02|Islamic Measures Other than]]
-- See also: [[fiqh-al-zakah-ch-01|Islamic Measures Other than]]
-- See also: [[fiqh-al-zakah-ch-08|Islamic Measures Other than]]
-- See also: [[economic-security-ch-03|Islamic Measures Other than]]
-- See also: [[diversion-arts-ch-01|Islamic Measures Other than]]
-- See also: [[education-economy-sunnah-ch-01|Islamic Measures Other than]]
-- See also: [[auspices-victory-ch-01|Islamic Measures Other than]]
-- See also: [[faith-and-life-ch-01|Islamic Measures Other than]]

@@ -38,23 +38,12 @@ confidence: medium
 | [[concept-prayer|Prayer]] | صَلَاة | 12 |
 | [[concept-jihad|Jihad]] | جِهَاد | 7 |
 | [[concept-fasting|Fasting]] | صَوْم | 6 |
-| [[concept-zakah|Zakah]] | زَكَاة | 5 |
+| [[concept-zakat|Zakah]] | زَكَاة | 5 |
 | [[concept-creed|Creed]] | عَقِيدَة | 5 |
 
-## Preview
+## Summary
 
-```
-The Status of the Sunnah in Islam
-GENERAL CHARACTERISTICS OF THE SUNNAH
-The Qur’an is the supreme sign and the greatest miracle of
-Muhammad (SAAS), the preserved everlasting Book, into which
-falsehood cannot enter from any direction. Its permanency from
-first to last makes it the primary fixed source validating all the
-sources of Islam and its further secondary proofs — one never
-argues from the latter to validate it. The Sunnah of the Prophet
-comes as a source following along with the Qur’an and making it
-clear, as God said, addressing His Messenger: <fWe have sent down
-```
+This chapter establishes the Sunnah's general characteristics — its comprehensiveness, balance, and integrative nature — as the second foundational source of Islam after the Qur'an. Al-Qaradawi argues that the Sunnah functions as the "practical exegesis" of the Qur'an, embodying Islam in lived reality, as encapsulated by ʿĀ'ishah's description of the Prophet's character: "His character was the Qur'an." He identifies three defining features. First, comprehensiveness: the Prophetic pattern encompasses all dimensions of human life — temporal (birth to death and beyond), horizontal (all social spheres — home, market, mosque, workplace), and deep (body, mind, spirit, outward and inward). Second, balance: the Sunnah steers between excess and negligence, integrating body and spirit, this world and the hereafter, individual and community — illustrated by hadiths where the Prophet corrected companions drawn to ascetic extremes, insisting "whoever prefers [something else] above my sunnah is not one of mine." Third, integration: the Sunnah unites faith and reason, legislation and moral instruction, religious authority and political governance. The Prophet embodied this unity, leading in prayer, battle, and administration simultaneously, unlike the bifurcation of prophethood and kingship in Israelite history or the Christian partition between God and Caesar. The chapter sets the theoretical foundation for the volume's argument about the Sunnah's indispensability and proper comprehension.
 
 ## Full Source
 See `raw/extracted/approaching-the-sunnah/ch-01.txt` for complete text.
@@ -62,20 +51,3 @@ See `raw/extracted/approaching-the-sunnah/ch-01.txt` for complete text.
 ---
 
 *Extracted from Approaching the Sunnah: Comprehension and Controversy — Chapter 1*
-- See also: [[approaching-the-sunnah-ch-03|Chapter 1]]
-- See also: [[diversion-arts-ch-01|Chapter 1]]
-- See also: [[ethics-in-islam-ch-01|Chapter 1]]
-- See also: [[education-economy-sunnah-ch-01|Chapter 1]]
-- See also: [[faith-and-life-ch-01|Chapter 1]]
-- See also: [[fiqh-al-zakah-ch-09|Chapter 1]]
-- See also: [[economic-security-ch-05|Chapter 1]]
-- See also: [[economic-security-ch-03|Chapter 1]]
-- See also: [[ethics-in-islam-ch-04|Chapter 1]]
-- See also: [[economic-security-ch-07|Chapter 1]]
-- See also: [[fiqh-al-zakah-ch-05|Chapter 1]]
-- See also: [[education-economy-sunnah-ch-02|Chapter 1]]
-- See also: [[fiqh-al-zakah-ch-01|Chapter 1]]
-- See also: [[auspices-victory-ch-01|Chapter 1]]
-- See also: [[fiqh-al-zakah-ch-08|Chapter 1]]
-- See also: [[fiqh-al-zakah-ch-10|Chapter 1]]
-- See also: [[fiqh-al-zakah-ch-07|Chapter 1]]

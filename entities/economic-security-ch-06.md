@@ -1,7 +1,7 @@
 ---
-title: Importance of Alms and Gen-
+title: Importance of Alms and Generosity in Islam
 created: '2026-05-16'
-updated: '2026-05-16'
+updated: '2026-06-09'
 type: chapter
 tags:
 - fiqh-muamalat
@@ -15,7 +15,7 @@ chapter: 6
 confidence: medium
 ---
 
-# Importance of Alms and Gen-
+# Importance of Alms and Generosity in Islam
 
 **Book:** [[economic-security-overview|Economic Security in Islam]]
 **Chapter:** 6 of 7
@@ -32,39 +32,9 @@ confidence: medium
 |---------|--------|-----------|
 | [[concept-sunnah|Sunnah]] | سُنَّة | 2 |
 
-## Preview
+## Summary
 
-```
-IMPORTANCE OF ALMS AND
-Islam, in addition to the rights and regulations
-of Zakat, wants to make the heart of a Muslim to
-give more than what is demanded or asked for,
-and spends in the way of God for the betterment of
-the poor, in open and in secret to ameliorate the
-condition of the needy. He likes that for his own
-self what he wishes for the other people. Also he
-prefers to spend his wealth on others. His aim is
-not wealth but a means to an end. He thinks his
-```
+Where the previous chapters addressed zakat and statutory obligations, this chapter turns to the moral and spiritual interior of Islamic generosity—the supererogatory alms (sadaqah) that transform a Muslim's relationship with wealth from mere compliance into sincere self-giving. Qaradawi argues that laws alone cannot govern human conduct fully; legislation must be supplemented by the cultivation of the heart. Drawing on numerous Qur'anic verses (2:245, 2:261, 59:9, 63:10, 76:8–10, among others) and prophetic traditions, he shows that Islam regards voluntary spending in God's path as a "goodly loan" to God Himself, multiplied manifold in recompense. The Prophet taught that true wealth is only what one has consumed, worn out, or given away; whatever remains is left for others. The chapter records traditions in which charity extinguishes sin as water extinguishes fire, and in which even a single date given from lawful earnings grows to the size of a mountain in divine reward. Beyond individual generosity, Qaradawi emphasises that Islam's moral economy transforms the giver: the believer who spends freely is freed from avarice and trained to prefer others above himself (59:9). The chapter thus completes the arc from institutional obligation to interior virtue, demonstrating that Islam's economic-security system operates simultaneously on the level of law, social habit, and spiritual formation.
 
 ## Full Source
 See `raw/extracted/economic-security/ch-06.txt` for complete text.
-
----
-
-*Extracted from Economic Security in Islam — Chapter 6*
-- See also: [[ethics-in-islam-ch-02|Importance of Alms and Gen-]]
-- See also: [[fiqh-al-zakah-ch-04|Importance of Alms and Gen-]]
-- See also: [[approaching-the-sunnah-ch-01|Importance of Alms and Gen-]]
-- See also: [[fiqh-al-zakah-ch-09|Importance of Alms and Gen-]]
-- See also: [[approaching-the-sunnah-ch-03|Importance of Alms and Gen-]]
-- See also: [[economic-security-ch-03|Importance of Alms and Gen-]]
-- See also: [[ethics-in-islam-ch-04|Importance of Alms and Gen-]]
-- See also: [[diversion-arts-ch-01|Importance of Alms and Gen-]]
-- See also: [[fiqh-al-zakah-ch-05|Importance of Alms and Gen-]]
-- See also: [[ethics-in-islam-ch-01|Importance of Alms and Gen-]]
-- See also: [[education-economy-sunnah-ch-02|Importance of Alms and Gen-]]
-- See also: [[education-economy-sunnah-ch-01|Importance of Alms and Gen-]]
-- See also: [[fiqh-al-zakah-ch-01|Importance of Alms and Gen-]]
-- See also: [[auspices-victory-ch-01|Importance of Alms and Gen-]]
-- See also: [[fiqh-al-zakah-ch-08|Importance of Alms and Gen-]]

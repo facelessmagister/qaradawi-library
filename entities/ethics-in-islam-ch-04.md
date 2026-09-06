@@ -1,12 +1,12 @@
 ---
-title: Chapter 4
-created: '2026-05-16'
-updated: '2026-05-16'
+title: Applied Ethics
+created: '2026-06-09'
+updated: '2026-06-09'
 type: chapter
 tags:
 - islamic-ethics
-- akhlaq
-- tazkiyah
+- applied-ethics
+- divine-ethics
 sources:
 - raw/extracted/ethics-in-islam/ch-04.txt
 book: ethics-in-islam
@@ -14,64 +14,46 @@ chapter: 4
 confidence: medium
 ---
 
-# Chapter 4
+# Applied Ethics
 
 **Book:** [[ethics-in-islam-overview|Ethics in Islam]]
 **Chapter:** 4 of 4
 
+### Subsections
+
+- **Divine Ethics: Human Morality Toward The Divine** → `raw/extracted/ethics-in-islam/section-04-01.txt`
+- **Individual Ethics** → `raw/extracted/ethics-in-islam/section-04-02.txt`
+- **Collective Human Ethics** → `raw/extracted/ethics-in-islam/section-04-03.txt`
+
 ## Chapter Links
 - [[ethics-in-islam-overview|Book Overview]]
-- [[ethics-in-islam-ch-03|← Chapter 3]]
+- [[concept-ethics|Ethics (أَخْلَاق)]]
+- [[concept-art|Art (فَنّ)]]
+- [[concept-faith|Faith (إِيمَان)]]
 - [[concept-marriage|Marriage (نِكَاح)]]
-- [[concept-prayer|Prayer (صَلَاة)]]
-- [[concept-hadith|Hadith (حَدِيث)]]
-- [[concept-divorce|Divorce (طَلَاق)]]
-- [[concept-zakat|Zakat (زَكَاة)]]
+- [[concept-justice|Justice (عَدْل)]]
 
 ## Key Concepts
 
 | Concept | Arabic | Frequency |
 |---------|--------|-----------|
+| [[concept-ethics|Ethics]] | أَخْلَاق | 184 |
+| [[concept-art|Art]] | فَنّ | 150 |
+| [[concept-faith|Faith]] | إِيمَان | 132 |
 | [[concept-marriage|Marriage]] | نِكَاح | 90 |
+| [[concept-justice|Justice]] | عَدْل | 68 |
 | [[concept-prayer|Prayer]] | صَلَاة | 56 |
 | [[concept-hadith|Hadith]] | حَدِيث | 48 |
-| [[concept-divorce|Divorce]] | طَلَاق | 41 |
 | [[concept-zakat|Zakat]] | زَكَاة | 34 |
-| [[concept-sunnah|Sunnah]] | سُنَّة | 32 |
-| [[concept-intention|Intention]] | نِيَّة | 32 |
-| [[concept-jihad|Jihad]] | جِهَاد | 21 |
 
-## Preview
+## Summary
 
-```
-310                                 Ethics in Islam
-Prologue: The Importance Of Applied Ethics (Human
-Applies ethics (or practical ethics) is the main concern of monotheistic religions,
-especially Islam. Allah has sent His Prophet (PBUH) with the revelation, which
-aims to correct people’s beliefs and reform their behavior. Allah says: “We have
-sent down to you the Book as clarification for all things and as guidance and mercy
-and good tidings for the Muslims” (Holy Qur’an, 16:89). Behavior is reformed by
-instilling moral values in people’s hearts, as stated in: “Say, ‘Come, I will recite
-what your Lord has prohibited to you. [He commands] that you not associate any-
-thing with Him, and to parents, good treatment, and do not kill your children out
-```
+The fourth and final chapter moves from theoretical foundations to practical application, organizing Islamic ethics into three domains: divine ethics, individual ethics, and collective human ethics. Divine ethics addresses the individual's inner relationship with Allah through sincerity (*ikhlas*), observing Allah (*muraqaba*), self-accountability (*muhasaba*), reliance on Allah (*tawakkul*), loving Allah, fearing Allah, hoping for His mercy, gratitude, and patience. Each virtue is grounded in Qur'anic verses and Prophetic hadiths, with Al-Qaradawi emphasizing the interconnectedness of these values — sincerity governs intention, observation governs execution, and accountability governs reflection. Individual ethics covers personal virtues such as truthfulness, trustworthiness, modesty, courage, and generosity, demonstrating how they shape private conduct and interpersonal relations. Collective human ethics extends moral obligations into the social sphere, encompassing justice in governance, economic ethics, family relations, neighborliness, and community solidarity. The chapter argues that Islamic ethics operates as an integrated whole: divine, individual, and social dimensions are inseparable, and the health of each depends on the others. This holistic vision reinforces the book's central thesis that Islamic ethics, derived from revelation and refined by reason, offers a comprehensive moral framework superior to both secular humanism and fragmented religious moralism.
 
 ## Full Source
 See `raw/extracted/ethics-in-islam/ch-04.txt` for complete text.
 
 ---
 
-*Extracted from Ethics in Islam — Chapter 4*
-- See also: [[economic-security-ch-07|Chapter 4]]
-- See also: [[fiqh-al-zakah-ch-10|Chapter 4]]
-- See also: [[economic-security-ch-02|Chapter 4]]
-- See also: [[fiqh-al-zakah-ch-05|Chapter 4]]
-- See also: [[fiqh-al-zakah-ch-07|Chapter 4]]
-- See also: [[ethics-in-islam-ch-01|Chapter 4]]
-- See also: [[education-economy-sunnah-ch-02|Chapter 4]]
-- See also: [[fiqh-al-zakah-ch-01|Chapter 4]]
-- See also: [[fiqh-al-zakah-ch-08|Chapter 4]]
-- See also: [[diversion-arts-ch-01|Chapter 4]]
-- See also: [[education-economy-sunnah-ch-01|Chapter 4]]
-- See also: [[auspices-victory-ch-01|Chapter 4]]
-- See also: [[faith-and-life-ch-01|Chapter 4]]
+*Extracted from Ethics in Islam — Applied Ethics*
+- [[ethics-in-islam-ch-03|← Chapter 3]]

@@ -1,7 +1,7 @@
 ---
-title: Islamic Prescription for Pover-
+title: Islamic Prescription for Poverty Cure
 created: '2026-05-16'
-updated: '2026-05-16'
+updated: '2026-06-09'
 type: chapter
 tags:
 - fiqh-muamalat
@@ -15,7 +15,7 @@ chapter: 3
 confidence: medium
 ---
 
-# Islamic Prescription for Pover-
+# Islamic Prescription for Poverty Cure
 
 **Book:** [[economic-security-overview|Economic Security in Islam]]
 **Chapter:** 3 of 7
@@ -36,35 +36,9 @@ confidence: medium
 | [[concept-marriage|Marriage]] | نِكَاح | 5 |
 | [[concept-sunnah|Sunnah]] | سُنَّة | 2 |
 
-## Preview
+## Summary
 
-```
-ISLAMIC     PRESCRIPTION       FOR   POVERTY
-Islam announces aregular effort against poverty
-and hunger, to bring an end to this evil so that it
-may not create a dangerous situation to affect the
-faith, manners and morals, family and social life of
-the human beings. So, it enjoins on each of the
-beings to have the following essentials of life, such
-as, provisions for sustenance, accommodation to
-live, dress to wear in summer and winter, books of
-art and science needed for studies, tools for those
-```
+Having critiqued competing ideologies in the preceding chapters, Qaradawi here outlines Islam's positive prescription for combating poverty. The chapter identifies work as the primary instrument: every able individual is obligated to earn a livelihood, and the Qur'an commands believers to "walk in the paths thereof and eat of His providence" (67:15). Islam opened all lawful professions to every person, prohibited exploitative or degrading occupations, and mandated prompt payment of wages—the Prophet declared that unpaid wages constitute cruelty. Two psychological obstacles are addressed: misplaced reliance on God (tawakkul) and ascetic seclusion. Genuine trust in God, Qaradawi claries, requires striving before relying, as illustrated by the prophetic injunction to "tie the she-camel and then rely on God." Idleness justified by tawakkul is therefore ignorance, not piety. Similarly, seclusion on the pretext of worship misunderstands the prophetic teaching that lawful work performed with right intention is itself worship. The Qur'an itself pairs seeking sustenance with striving in God's path (73:20). The chapter further insists that Islam guarantees essential needs—food, shelter, clothing, education, tools, and marriage—and that where individual effort falls short, communal and institutional mechanisms must supply the deficiency, thereby linking personal responsibility with social obligation in a unified framework.
 
 ## Full Source
 See `raw/extracted/economic-security/ch-03.txt` for complete text.
-
----
-
-*Extracted from Economic Security in Islam — Chapter 3*
-- See also: [[ethics-in-islam-ch-04|Islamic Prescription for Pover-]]
-- See also: [[economic-security-ch-07|Islamic Prescription for Pover-]]
-- See also: [[diversion-arts-ch-01|Islamic Prescription for Pover-]]
-- See also: [[fiqh-al-zakah-ch-05|Islamic Prescription for Pover-]]
-- See also: [[ethics-in-islam-ch-01|Islamic Prescription for Pover-]]
-- See also: [[education-economy-sunnah-ch-02|Islamic Prescription for Pover-]]
-- See also: [[education-economy-sunnah-ch-01|Islamic Prescription for Pover-]]
-- See also: [[fiqh-al-zakah-ch-01|Islamic Prescription for Pover-]]
-- See also: [[auspices-victory-ch-01|Islamic Prescription for Pover-]]
-- See also: [[fiqh-al-zakah-ch-08|Islamic Prescription for Pover-]]
-- See also: [[faith-and-life-ch-01|Islamic Prescription for Pover-]]

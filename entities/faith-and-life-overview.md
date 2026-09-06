@@ -24,7 +24,11 @@ chapter_count: 4
 
 ## Overview
 
-This book by Dr. Yusuf al-Qaradawi addresses tazkiyah.
+*Faith and Life* (الإيمان والحياة) is Qaradawi's foundational argument that Islamic creed (*iman*) is not a static set of abstract dogmas but a living force that reshapes every dimension of human existence. Across four chapters, he demonstrates how genuine faith elevates the believer's self-understanding, moral character, social relations, and existential purpose beyond what secular or materialist worldviews can offer.
+
+Chapter 1, "Iman and the Dignity of Man," sets the stage by contrasting the materialist reduction of humanity—man as an evolved animal, a collection of elements worth pennies—with the Qur'anic vision of man as Allah's honored vicegerent (*khalifah*), created by God's own hand, endowed with His spirit, and placed above the angels. Qaradawi draws on numerous Qur'anic verses and prophetic traditions to establish that human dignity derives from divine endowment: the spirit breathed into Adam, the knowledge taught him, the prostration of the angels, and the cosmic trust (*amanah*) that heavens and mountains refused but man accepted. This theological anthropology undergirds the entire book—only when man recognises his God-given rank can faith animate his life with meaning, virtue, and hope.
+
+Subsequent chapters extend this argument into the practical and spiritual domains, showing how iman transforms individual character, interpersonal relations, and the Muslim community's collective life, making faith the axis around which all lived reality turns.
 
 ## Chapter Index
 

@@ -23,7 +23,7 @@ confidence: medium
 - [[education-economy-sunnah-overview|Book Overview]]
 - [[education-economy-sunnah-ch-01|← Chapter 1]]
 - [[concept-sunnah|Sunnah (سُنَّة)]]
-- [[concept-zakah|Zakah (زَكَاة)]]
+- [[concept-zakat|Zakah (زَكَاة)]]
 - [[concept-prayer|Prayer (صَلَاة)]]
 - [[concept-hadith|Hadith (حَدِيث)]]
 - [[concept-zakat|Zakat (زَكَاة)]]
@@ -33,26 +33,15 @@ confidence: medium
 | Concept | Arabic | Frequency |
 |---------|--------|-----------|
 | [[concept-sunnah|Sunnah]] | سُنَّة | 21 |
-| [[concept-zakah|Zakah]] | زَكَاة | 10 |
+| [[concept-zakat|Zakah]] | زَكَاة | 10 |
 | [[concept-prayer|Prayer]] | صَلَاة | 5 |
 | [[concept-hadith|Hadith]] | حَدِيث | 5 |
 | [[concept-zakat|Zakat]] | زَكَاة | 2 |
 | [[concept-creed|Creed]] | عَقِيدَة | 2 |
 
-## Preview
+## Summary
 
-```
-Economists who study the Sunnah, come across a great deal of
-values and recommendations, as well as several commandments and
-laws. These relate to various areas, such as production, consumption,
-distribution, or market transactions. It is net possible to discuss all of
-these, here, in detail. This would require several higher studies in
-which specialized theses led to Masters and Ph. D. degrees (in each of
-Some of our Muslim brothers have written a glossary of economic
-terms mentioned in the famous books of Sunnah; such as the book of
-Muhyi ad-Din “Atiyyah which is called The Glossary of Economics. |
-have also seen a draft for a more detailed project about the economic
-```
+Chapter 2 explores economic principles embedded within the Prophetic Sunnah, demonstrating that hadith literature encompasses far more than ritual or creedal guidance — it articulates values, commandments, and legal norms relevant to production, consumption, distribution, and market transactions. Al-Qaradawi notes that Muslim scholars have begun cataloguing these economic texts, citing works by Muhyi ad-Din 'Atiyyah and Mundhir Qahf. The chapter identifies economic principles scattered across diverse hadith categories: creedal traditions linking faith to property protection, worship-related traditions (especially Zakah in its multiple forms), purification traditions condemning water extravagance, supplications seeking refuge from poverty and debt, and moral traditions prohibiting interest (riba), hoarding, deception in trade, and selfish disregard for neighbors. The author also highlights Prophetic encouragements for productive activity, including planting and cultivation — where any creature's consumption of a Muslim's crop counts as charitable reward — and the promotion of skills and crafts. Funeral traditions concerning debt obligations and jihad traditions prohibiting misappropriation of booty or public funds further illustrate the Sunnah's comprehensive economic ethic. Across all these domains, the Prophetic model integrates economic life into a moral-spiritual framework, treating property, trade, and labor as arenas of divine accountability rather than purely secular concerns.
 
 ## Full Source
 See `raw/extracted/education-economy-sunnah/ch-02.txt` for complete text.
@@ -60,7 +49,3 @@ See `raw/extracted/education-economy-sunnah/ch-02.txt` for complete text.
 ---
 
 *Extracted from Education and Economy in the Sunnah — Chapter 2*
-- See also: [[fiqh-al-zakah-ch-01|Chapter 2]]
-- See also: [[fiqh-al-zakah-ch-08|Chapter 2]]
-- See also: [[auspices-victory-ch-01|Chapter 2]]
-- See also: [[faith-and-life-ch-01|Chapter 2]]

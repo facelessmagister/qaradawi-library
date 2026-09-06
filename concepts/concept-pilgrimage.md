@@ -1,46 +1,28 @@
 ---
-title: Pilgrimage (حَجّ)
+title: Pilgrimage (حَجّ) → Hajj
 created: '2026-05-16'
-updated: '2026-05-16'
+updated: '2026-06-09'
 type: concept
 tags:
 - fiqh-ibadat
+- hajj
 sources:
+- raw/extracted/approaching-the-sunnah/ch-02.txt
 - raw/extracted/economic-security/ch-05.txt
 - raw/extracted/fiqh-al-zakah/ch-05.txt
 - raw/extracted/auspices-victory/ch-01.txt
 confidence: low
+redirect: concept-hajj
 ---
 
 # Pilgrimage (حَجّ)
 
-**Arabic:** حَجّ
-**Domain:** Fiqh Ibadat
+> **This is a redirect page.** The canonical concept page for Pilgrimage (حَجّ) is **[[concept-hajj|Hajj / Pilgrimage (حَجّ)]]**.
 
-## Definition
+The Arabic term حَجّ (*ḥajj*) is the primary and preferred term for this concept. The English translation "Pilgrimage" is an alias that resolves to the same page.
 
-*Definition pending full extraction from multiple sources.*
-
-## Qaradawi's Treatment
-
-- [[economic-security-ch-05|Economic Security in Islam — Chapter 5]]
-
-## Qaradawi's Treatment
-
-- [[fiqh-al-zakah-ch-05|Fiqh al-Zakah (2 Volumes) — Chapter 5]]
-
-## Qaradawi's Treatment
-
-- [[auspices-victory-ch-01|Auspices of the Ultimate Victory of Islam — Chapter 1]]
-
-## Related Concepts
-
-*Links to related concepts will be added as corpus grows.*
-
-## Classical Scholarly Context
-
-*Comparison with classical madhhab positions pending.*
+All content, citations, and discussion have been consolidated into [[concept-hajj]].
 
 ---
 
-*Concept extracted from Economic Security in Islam. Page will expand as more books are ingested.*
+*Redirect alias created on 2026-06-09. Previous stub content merged into concept-hajj.*

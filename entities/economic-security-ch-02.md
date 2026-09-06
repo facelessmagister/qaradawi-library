@@ -1,7 +1,7 @@
 ---
-title: Capitalism,   Communism    and
+title: Capitalism, Communism and Islam
 created: '2026-05-16'
-updated: '2026-05-16'
+updated: '2026-06-09'
 type: chapter
 tags:
 - fiqh-muamalat
@@ -15,7 +15,7 @@ chapter: 2
 confidence: medium
 ---
 
-# Capitalism,   Communism    and
+# Capitalism, Communism and Islam
 
 **Book:** [[economic-security-overview|Economic Security in Islam]]
 **Chapter:** 2 of 7
@@ -32,30 +32,9 @@ confidence: medium
 |---------|--------|-----------|
 | [[concept-zakat|Zakat]] | زَكَاة | 2 |
 
-## Preview
+## Summary
 
-```
-CAPITALISM,           COMMUNISM          AND     ISLAM
-Islam Refutes Capitalistic Trend : Islam neither
-supports dependence on individual generosity nor
-the capitalistic trends to solve the problem of
-poverty and hunger. It does not reckon the rich
-to be the real owner of his wealth and at liberty
-to spend it to his heart’s content, whether he gives
-it in the way of God, or for the satisfaction of his
-mind and heart. Or he may be miser not to spend
-anything out of the wealth. And this particular
-```
+This chapter presents a systematic comparison of Islam's economic framework with both capitalism and communism, demonstrating Islam's distinctive mediating position. Qaradawi argues that Islam refutes the capitalistic doctrine of absolute private ownership: wealth belongs ultimately to God, and human beings are mere trustees who must dispense it according to divine instruction, as confirmed by Qur'anic verses (57:7, 24:33, 2:254). Islam enforces this through zakat—a divinely mandated, state-collected poor-due—not through voluntary charity alone. Four distinctive features of Islamic law are highlighted: its temporal priority (recognising the poor's rights over 1,400 years ago), its eternal and unchangeable character, its comprehensiveness grounded in divine wisdom, and its principled (not circumstantial) foundation. The chapter further contrasts Islamic and communist approaches: Islam affirms private property as a natural right but subjects it to social safeguards, whereas communism seeks to abolish ownership entirely and fosters class warfare. Individual accountability, as expressed in the Qur'anic principle that no laden soul bears another's burden (6:165, 53:38–39), precludes collective punishment of the wealthy. Islam thus charters a middle path that guarantees economic security through obligatory redistribution while preserving the incentive structures of lawful ownership.
 
 ## Full Source
 See `raw/extracted/economic-security/ch-02.txt` for complete text.
-
----
-
-*Extracted from Economic Security in Islam — Chapter 2*
-- See also: [[fiqh-al-zakah-ch-05|Capitalism,   Communism    and]]
-- See also: [[fiqh-al-zakah-ch-07|Capitalism,   Communism    and]]
-- See also: [[ethics-in-islam-ch-01|Capitalism,   Communism    and]]
-- See also: [[education-economy-sunnah-ch-02|Capitalism,   Communism    and]]
-- See also: [[fiqh-al-zakah-ch-01|Capitalism,   Communism    and]]
-- See also: [[fiqh-al-zakah-ch-08|Capitalism,   Communism    and]]

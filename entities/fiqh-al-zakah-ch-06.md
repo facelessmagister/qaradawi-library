@@ -1,5 +1,5 @@
 ---
-title: Zakah on Honey and Animal Products…………………........                                                       213
+title: Zakah on Honey and Animal Products
 created: '2026-05-16'
 updated: '2026-05-16'
 type: chapter
@@ -23,7 +23,7 @@ confidence: medium
 - [[fiqh-al-zakah-overview|Book Overview]]
 - [[fiqh-al-zakah-ch-05|← Chapter 5]]
 - [[fiqh-al-zakah-ch-07|Chapter 7 →]]
-- [[concept-zakah|Zakah (زَكَاة)]]
+- [[concept-zakat|Zakah (زَكَاة)]]
 - [[concept-zakat|Zakat (زَكَاة)]]
 - [[concept-fiqh|Fiqh (فِقْه)]]
 
@@ -31,24 +31,13 @@ confidence: medium
 
 | Concept | Arabic | Frequency |
 |---------|--------|-----------|
-| [[concept-zakah|Zakah]] | زَكَاة | 36 |
+| [[concept-zakat|Zakah]] | زَكَاة | 36 |
 | [[concept-zakat|Zakat]] | زَكَاة | 33 |
 | [[concept-fiqh|Fiqh]] | فِقْه | 3 |
 
-## Preview
+## Summary
 
-```
-ZAKAH ON HONEY AND ANIMAL PRODUCTS
-Section 1: Zakah on honey according to those who obligate it and those
-Section 2: The obligated rate
-Section 3: Nisab of honey
-Section 4: Animal products such as dairy products, silk, etc.
-214                   Fiqh al Zakah (Vol. I), Dr. Yusuf al Qardawi
-THE OBLIGATORS AND PREVENTORS OF ZAKAH ON HONEY
-Honey is one of the goods bestowed by God on humanity as a food, medicine, and
-sweet. God mentions it as a sign of His grace to human beings in a sura that is named
-after bees, sura al Nahl. God says "And thy Lord taught the bee to build its cells in hills,
-```
+This chapter examines the juristic debate over whether honey is subject to zakah. Abu Hanifah, Ahmad, al-Awza'i, and others affirm its zakatability, citing Prophetic reports—such as the hadith of 'Amr bin Shu'aib on the one-tenth due on honey and the account of Hilal al-Muta'i—alongside rational analogy to grains and fruits. Opponents, including Malik and al-Shafi'i, reject honey's zakatability, citing the absence of any sound (sahih) prophetic text and drawing an analogy to milk, which is unanimously exempt. Abu 'Ubaid adopts a middle position, encouraging voluntary payment without imposing obligation. Al-Qaradawi defends the view that honey is zakatable, arguing that general Qur'anic injunctions on wealth encompass all forms of production, the various hadith reports strengthen each other collectively, and the analogy to milk fails because livestock already bear zakah through the animal levy while bees carry no such obligation. On the rate, most authorities agree on one-tenth, though 'Umar differentiated between valley and mountain honey (10% vs. 5%) in consideration of production costs. Al-Qaradawi recommends applying 10% to net income after deducting expenses. The chapter also addresses animal products—dairy, silk, and similar outputs—concluding that they should be treated like honey, with one-tenth levied on the net yield while the producing animals remain exempt from additional zakah on their output.
 
 ## Full Source
 See `raw/extracted/fiqh-al-zakah/ch-06.txt` for complete text.
@@ -56,16 +45,3 @@ See `raw/extracted/fiqh-al-zakah/ch-06.txt` for complete text.
 ---
 
 *Extracted from Fiqh al-Zakah (2 Volumes) — Chapter 6*
-- See also: [[fiqh-al-zakah-ch-09|Zakah on Honey and Animal Products…………………........                                                       213]]
-- See also: [[economic-security-ch-05|Zakah on Honey and Animal Products…………………........                                                       213]]
-- See also: [[ethics-in-islam-ch-04|Zakah on Honey and Animal Products…………………........                                                       213]]
-- See also: [[economic-security-ch-07|Zakah on Honey and Animal Products…………………........                                                       213]]
-- See also: [[fiqh-al-zakah-ch-10|Zakah on Honey and Animal Products…………………........                                                       213]]
-- See also: [[economic-security-ch-02|Zakah on Honey and Animal Products…………………........                                                       213]]
-- See also: [[ethics-in-islam-ch-01|Zakah on Honey and Animal Products…………………........                                                       213]]
-- See also: [[education-economy-sunnah-ch-02|Zakah on Honey and Animal Products…………………........                                                       213]]
-- See also: [[fiqh-al-zakah-ch-01|Zakah on Honey and Animal Products…………………........                                                       213]]
-- See also: [[fiqh-al-zakah-ch-08|Zakah on Honey and Animal Products…………………........                                                       213]]
-- See also: [[approaching-the-sunnah-ch-01|Zakah on Honey and Animal Products…………………........                                                       213]]
-- See also: [[approaching-the-sunnah-ch-03|Zakah on Honey and Animal Products…………………........                                                       213]]
-- See also: [[education-economy-sunnah-ch-01|Zakah on Honey and Animal Products…………………........                                                       213]]

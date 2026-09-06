@@ -1,7 +1,7 @@
 ---
 title: Qaradawi Library — Content Index
 created: 2026-05-16
-updated: 2026-05-16
+updated: '2026-06-09'
 type: index
 tags: [meta, index]
 ---
@@ -10,172 +10,121 @@ tags: [meta, index]
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-05-16 | Total pages: 71
+> Last updated: 2026-06-09 | Total pages: 120+
 
 ---
 
 ## Books (Overview Pages)
 
-<!-- One entry per ingested book --
-- [[halal-haram-overview|The Lawful and the Prohibited in Islam]] — Comprehensive treatise on halal and haram in daily Muslim life
--->
-
-*No books ingested yet. Run `python3 .tools/ingest_book.py --book {slug}` to populate.*
+- [[fiqh-al-zakah-overview|Fiqh al-Zakah (2 Volumes)]] — Comprehensive zakah rulings: nisab, recipients, modern applications
+- [[approaching-the-sunnah-overview|Approaching the Sunnah: Comprehension and Controversy]] — Hadith methodology and comprehension
+- [[economic-security-overview|Economic Security in Islam]] — Islamic social security and economic justice
+- [[education-economy-sunnah-overview|Education and Economy in the Sunnah]] — Prophetic pedagogy and economic ethics
+- [[ethics-in-islam-overview|Ethics in Islam]] — Comprehensive moral philosophy: definition, foundations, applied ethics
+- [[diversion-arts-overview|Diversion and Arts in Islam]] — Rulings on recreation, music, visual arts, humor
+- [[auspices-victory-overview|Auspices of the Ultimate Victory of Islam]] — Qur'anic and prophetic signs of Islam's victory
+- [[faith-and-life-overview|Faith and Life]] — Connection between theological conviction and daily living
+- [[halal-haram-overview|The Lawful and the Prohibited in Islam]] — Systematic halal/haram rulings across all life domains
 
 ---
 
 ## Chapters (Entity Pages)
 
-<!-- Grouped by book, then chapter number --
-### The Lawful and the Prohibited in Islam
-- [[halal-haram-ch-01|Chapter 1: The Islamic Concept of Halal and Haram]] — Foundation of the lawful/prohibited framework
--->
+### Fiqh al-Zakah (10 chapters)
+- [[fiqh-al-zakah-ch-01|Ch 1: Zakatable Assets]]
+- [[fiqh-al-zakah-ch-02|Ch 2: Zakah on Livestock]]
+- [[fiqh-al-zakah-ch-03|Ch 3: Zakah on Gold and Silver]]
+- [[fiqh-al-zakah-ch-04|Ch 4: Zakah on Business Inventory]]
+- [[fiqh-al-zakah-ch-05|Ch 5: Zakah on Agriculture]]
+- [[fiqh-al-zakah-ch-06|Ch 6: Zakah on Honey and Animal Products]]
+- [[fiqh-al-zakah-ch-07|Ch 7: Zakah on Minerals and Sea Products]]
+- [[fiqh-al-zakah-ch-08|Ch 8: Zakah on Exploited Assets]]
+- [[fiqh-al-zakah-ch-09|Ch 9: Zakah on Earning of Laborers and Professionals]]
+- [[fiqh-al-zakah-ch-10|Ch 10: Zakah on Business Inventory (Continued)]]
 
-*No chapters ingested yet.*
+### Approaching the Sunnah (3 chapters)
+- [[approaching-the-sunnah-ch-01|Ch 1]]
+- [[approaching-the-sunnah-ch-02|Ch 2]]
+- [[approaching-the-sunnah-ch-03|Ch 3]]
+
+### Economic Security in Islam (7 chapters)
+- [[economic-security-ch-01|Ch 1: Different Views on Want and Poverty]]
+- [[economic-security-ch-02|Ch 2: Capitalism, Communism and Islam]]
+- [[economic-security-ch-03|Ch 3: Islamic Prescription for Poverty Cure]]
+- [[economic-security-ch-04|Ch 4: The Importance of Zakat in the Islamic Economic System]]
+- [[economic-security-ch-05|Ch 5: Islamic Measures Other than Zakat to Satisfy Want]]
+- [[economic-security-ch-06|Ch 6: Importance of Alms and Generosity in Islam]]
+- [[economic-security-ch-07|Ch 7: Pre-requisites for the Success of Islamic Economic System]]
+
+### Education and Economy in the Sunnah (2 chapters)
+- [[education-economy-sunnah-ch-01|Ch 1: Education in the Sunnah]]
+- [[education-economy-sunnah-ch-02|Ch 2: Economy in the Sunnah]]
+
+### Ethics in Islam (4 chapters + 23 subsections)
+- [[ethics-in-islam-ch-01|Ch 1: Definition, Philosophy, Status, Objectives, and Methods]]
+- [[ethics-in-islam-ch-02|Ch 2: Research on Ethics]]
+- [[ethics-in-islam-ch-03|Ch 3: Foundations of Moral Philosophy in Islam]]
+- [[ethics-in-islam-ch-04|Ch 4: Applied Ethics]]
+
+### Diversion and Arts in Islam (7 sections)
+- [[diversion-arts-ch-01|Sec 1: Islam and Sense of Reality]]
+- [[diversion-arts-ch-02|Sec 2: Beauty in the Quran and Universe]]
+- [[diversion-arts-ch-03|Sec 3: Expression of Beauty: Poetry and Literature]]
+- [[diversion-arts-ch-04|Sec 4: The Judgement of Islam on Singing and Music]]
+- [[diversion-arts-ch-05|Sec 5: Painting, Picture-Making and Decoration]]
+- [[diversion-arts-ch-06|Sec 6: Photography]]
+- [[diversion-arts-ch-07|Sec 7: Comedy, Humor, Games and Conclusion]]
+
+### Auspices of the Ultimate Victory of Islam (8 sections)
+- [[auspices-victory-ch-01|Sec 1: Prelude]]
+- [[auspices-victory-ch-02|Sec 2: Auspices From The Glorious Quran]]
+- [[auspices-victory-ch-03|Sec 3: Auspices From The Sunnah]]
+- [[auspices-victory-ch-04|Sec 4: Auspices From History]]
+- [[auspices-victory-ch-05|Sec 5: Auspices From The Actual Time]]
+- [[auspices-victory-ch-06|Sec 6: Auspices From The Divine Laws]]
+- [[auspices-victory-ch-07|Sec 7: A Necessary Pause]]
+- [[auspices-victory-ch-08|Sec 8: Light Shed on Misconceived Hadiths]]
+
+### The Lawful and the Prohibited in Islam (5 chapters)
+- [[halal-haram-ch-00|Introduction]]
+- [[halal-haram-ch-01|Ch 1: Islamic Principles Pertaining to the Lawful and the Prohibited]]
+- [[halal-haram-ch-02|Ch 2: The Lawful and Prohibited in Eating, Drinking, and Economic Life]]
+- [[halal-haram-ch-03|Ch 3: The Lawful and Prohibited in Marriage and Family Life]]
+- [[halal-haram-ch-04|Ch 4: The Lawful and Prohibited in Dress, Adornment, and Social Relations]]
+
+### Faith and Life (4 chapters)
+- [[faith-and-life-ch-01|Ch 1: Iman and the Dignity of Man]]
+- [[faith-and-life-ch-02|Ch 2: Iman and Happiness]]
+- [[faith-and-life-ch-03|Ch 3: Iman and Love]]
+- [[faith-and-life-ch-04|Ch 4: Iman and Hope]]
 
 ---
 
 ## Concepts
-- [[concepts-index|Concepts Index]] — Thematic catalog of all extracted concepts
 
-- [[concept-purity|Purity (طَهَارَة)]] — fiqh-ibadat
-- [[concept-sharia|Sharia (شَرِيعَة)]] — usul-al-fiqh
-- [[concept-haram|Haram (حَرَام)]] — fiqh-ibadat
-- [[concept-halal|Halal (حَلَال)]] — fiqh-ibadat
-- [[concept-ijtihad|Ijtihad (اجْتِهَاد)]] — usul-al-fiqh
-- [[concept-divorce|Divorce (طَلَاق)]] — fiqh-ahwal-shakhsiyyah
-- [[concept-intention|Intention (نِيَّة)]] — fiqh-ibadat
-- [[concept-usury|Usury (رِبَا)]] — fiqh-muamalat
-- [[concept-pilgrimage|Pilgrimage (حَجّ)]] — fiqh-ibadat
-- [[concept-consensus|Consensus (إِجْمَاع)]] — usul-al-fiqh
-- [[concept-zakat|Zakat (زَكَاة)]] — fiqh-muamalat
-- [[concept-marriage|Marriage (نِكَاح)]] — fiqh-ahwal-shakhsiyyah
-- [[concept-ijma|Ijma (إِجْمَاع)]] — usul-al-fiqh
-- [[concept-hajj|Hajj (حَجّ)]] — fiqh-ibadat
-- [[concept-salah|Salah (صَلَاة)]] — fiqh-ibadat
-- [[concept-fiqh|Fiqh (فِقْه)]] — usul-al-fiqh
-- [[concept-creed|Creed (عَقِيدَة)]] — tazkiyah
-- [[concept-zakah|Zakah (زَكَاة)]] — fiqh-muamalat
-- [[concept-fasting|Fasting (صَوْم)]] — fiqh-ibadat
-- [[concept-jihad|Jihad (جِهَاد)]] — fiqh-dawah
-- [[concept-prayer|Prayer (صَلَاة)]] — fiqh-ibadat
-- [[concept-character|Character (أَخْلَاق)]] — islamic-ethics
-- [[concept-sunnah|Sunnah (سُنَّة)]] — hadith-methodology
-- [[concept-hadith|Hadith (حَدِيث)]] — hadith-methodology
-
-<!-- Alphabetical. One entry per concept that appears in 2+ chapters --
-- [[concept-zakat|Zakat (زَكَاة)]] — Obligatory alms-giving: conditions, nisab, recipients
-- [[concept-salah|Salah (صَلَاة)]] — Ritual prayer: conditions, pillars, types
--->
-
-*No concepts created yet.*
+- [[concepts-index|Concepts Index]] — Thematic catalog of all 48 concepts + 16 redirects
 
 ---
 
 ## Comparisons
 
-<!-- Side-by-side analyses --
-- [[comparison-halal-haram-madhabs|Halal and Haram Across the Four Madhhabs]] — How Qaradawi's view compares to Hanafi/Shafi'i/Maliki/Hanbali positions
--->
-
-*No comparisons created yet.*
+- [[comparison-zakat-economic-justice|Zakat and Economic Justice Across Qaradawi's Works]] — How zakat is treated across legal, theological, and economic dimensions
+- [[comparison-sunnah-methodology|Sunnah Methodology Across Contexts]] — How Qaradawi's hadith authentication and application varies across contexts
+- [[comparison-halal-haram-permissibility|Halal/Haram and Islamic Permissibility]] — How the principle of original permissibility operates across lifestyle, legal, ethical, and economic contexts
+- [[comparison-wasatiyyah-moderation|Wasatiyyah — The Middle Way as Qaradawi's Master Framework]] — How wasatiyyah structures Qaradawi's thought across fiqh, ethics, lifestyle, eschatology, and spirituality
 
 ---
 
 ## Queries
 
-<!-- Filed research results --
-- [[query-zakat-on-stocks|Zakat on Stocks and Shares]] — Qaradawi's ruling on modern investment instruments
--->
-
 *No queries filed yet.*
 
 ---
 
-## Scholars & Publishers
+## Scholars
 
-<!-- Biographical and metadata entities --
-- [[scholar-yusuf-al-qaradawi|Yusuf al-Qaradawi]] — Biography, methodology, scholarly lineage
--->
+- [[scholar-qaradawi|Shaykh Yusuf al-Qaradawi]] — Egyptian Islamic scholar (1926–2022); wasatiyyah jurist, zakah authority, author of 170+ works; founder of Faculty of Shari'ah at University of Qatar; chairman of IUMS
 
-*No scholar/publisher pages created yet.*
+## Publishers
 
-- [[approaching-the-sunnah-overview|Approaching the Sunnah: Comprehension and Controversy]] — hadith-methodology
-
-- [[approaching-the-sunnah-ch-01|Chapter 1: Chapter 1]]
-
-- [[approaching-the-sunnah-ch-02|Chapter 2: Chapter 2]]
-
-- [[approaching-the-sunnah-ch-03|Chapter 3: Chapter 3]]
-
-- [[economic-security-overview|Economic Security in Islam]] — fiqh-muamalat
-
-- [[economic-security-ch-01|Chapter 1: Different Views on Want    and]]
-
-- [[economic-security-ch-02|Chapter 2: Capitalism,   Communism    and]]
-
-- [[economic-security-ch-03|Chapter 3: Islamic Prescription for Pover-]]
-
-- [[economic-security-ch-04|Chapter 4: The Importance of Zakat in]]
-
-- [[economic-security-ch-05|Chapter 5: Islamic Measures Other than]]
-
-- [[economic-security-ch-06|Chapter 6: Importance of Alms and Gen-]]
-
-- [[economic-security-ch-07|Chapter 7: Pre-requisites for the Success]]
-
-- [[education-economy-sunnah-overview|Education and Economy in the Sunnah]] — islamic-education
-
-- [[education-economy-sunnah-ch-01|Chapter 1: Chapter 1]]
-
-- [[education-economy-sunnah-ch-02|Chapter 2: Chapter 2]]
-
-- [[ethics-in-islam-overview|Ethics in Islam]] — islamic-ethics
-
-- [[ethics-in-islam-ch-01|Chapter 1: Chapter 1]]
-
-- [[ethics-in-islam-ch-02|Chapter 2: Chapter 2]]
-
-- [[ethics-in-islam-ch-03|Chapter 3: Chapter 3]]
-
-- [[ethics-in-islam-ch-04|Chapter 4: Chapter 4]]
-
-- [[fiqh-al-zakah-overview|Fiqh al-Zakah (2 Volumes)]] — fiqh-muamalat
-
-- [[fiqh-al-zakah-ch-01|Chapter 1: Zakatable Assets ......................................................................... 53]]
-
-- [[fiqh-al-zakah-ch-02|Chapter 2: Zakah on Livestock ..................................................................                       81]]
-
-- [[fiqh-al-zakah-ch-03|Chapter 3: Zakah on Gold and Silver………………………………...                                                               123]]
-
-- [[fiqh-al-zakah-ch-04|Chapter 4: Zakah on Business Inventory…..…………………………...                                                            161]]
-
-- [[fiqh-al-zakah-ch-05|Chapter 5: Zakah on Agriculture ………………………………............                                                          175]]
-
-- [[fiqh-al-zakah-ch-06|Chapter 6: Zakah on Honey and Animal Products…………………........                                                       213]]
-
-- [[fiqh-al-zakah-ch-07|Chapter 7: Zakah on Minerals and Sea Products…………………...                                                          221]]
-
-- [[fiqh-al-zakah-ch-08|Chapter 8: Zakah on Exploited Assets……………………………...                                                               235]]
-
-- [[fiqh-al-zakah-ch-09|Chapter 9: Zakah on Earning of Laborers Professionals……………...                                                     251]]
-
-- [[fiqh-al-zakah-ch-10|Chapter 10: Zakah on Business Inventory…..………………………...                                                              269]]
-
-- [[auspices-victory-overview|Auspices of the Ultimate Victory of Islam]] — fiqh-dawah
-
-- [[auspices-victory-ch-01|Chapter 1: Chapter 1]]
-
-- [[diversion-arts-overview|Diversion and Arts in Islam]] — fiqh-ibadat
-
-- [[diversion-arts-ch-01|Chapter 1: Chapter 1]]
-
-- [[faith-and-life-overview|Faith and Life]] — tazkiyah
-
-- [[faith-and-life-ch-01|Chapter 1: Iman and the Dignity of Man]]
-
-- [[faith-and-life-ch-02|Chapter 2: Iman and Happiness]]
-
-- [[faith-and-life-ch-03|Chapter 3: Iman and Love]]
-
-- [[faith-and-life-ch-04|Chapter 4: Iman and Hope]]
+*No publisher pages created yet.*

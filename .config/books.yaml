@@ -17,11 +17,22 @@ books:
     - islamic-ethics
     estimated_chapters: 20
     priority: 1
-    downloaded: false
-    extracted: false
-    ingested: false
-    ocr_needed: false
+    downloaded: true
+    extracted: true
+    ingested: true
+    ocr_needed: true
     notes: Core reference on halal/haram. High priority for corpus foundation.
+    downloaded_at: '2026-06-09'
+    pdf_size: 15258910
+    extraction_method: OCR
+    extracted_at: '2026-06-09'
+    actual_chapters: 5
+    chapter_titles:
+    - Introduction
+    - The Islamic Principles Pertaining to the Lawful and the Prohibited
+    - The Lawful and Prohibited in Eating, Drinking, and Economic Life
+    - The Lawful and Prohibited in Marriage and Family Life
+    - The Lawful and Prohibited in Dress, Adornment, and Social Relations
   fiqh-al-zakah:
     title: Fiqh al-Zakah (2 Volumes)
     arabic_title: فقه الزكاة
@@ -162,18 +173,23 @@ books:
     - akhlaq
     - tazkiyah
     estimated_chapters: 16
+    actual_chapters: 4
+    actual_subsections: 23
     priority: 2
     downloaded: true
     extracted: true
     ingested: true
     ocr_needed: false
-    notes: Comprehensive treatment of Muslim character and moral conduct.
+    notes: Comprehensive treatment of Muslim character and moral conduct. Re-split
+      into 4 chapters with 23 subsections.
     downloaded_at: '2026-05-16'
     pdf_size: 2476812
     extracted_at: '2026-05-16'
     chapters: 4
+    subsections: 23
     ingested_at: '2026-05-16'
-    pages_created: 7
+    pages_created: 28
+    last_updated: '2026-06-09'
   time-in-life:
     title: Time in the Life of a Muslim
     arabic_title: الوقت في حياة المسلم
@@ -210,18 +226,22 @@ books:
     - islamic-economics
     - sunnah
     estimated_chapters: 12
+    actual_chapters: 2
     priority: 3
     downloaded: true
     extracted: true
     ingested: true
     ocr_needed: false
-    notes: Dual focus on prophetic pedagogy and economic ethics.
+    notes: Dual focus on prophetic pedagogy and economic ethics. Book has 2 chapters
+      (Education + Economy), correctly split.
     downloaded_at: '2026-05-16'
     pdf_size: 946932
     extracted_at: '2026-05-16'
     chapters: 2
+    subsections: 0
     ingested_at: '2026-05-16'
     pages_created: 3
+    last_updated: '2026-06-09'
   diversion-arts:
     title: Diversion and Arts in Islam
     arabic_title: اللهو والفنون في الإسلام
@@ -238,18 +258,22 @@ books:
     - entertainment
     - islamic-ethics
     estimated_chapters: 14
+    actual_chapters: 7
     priority: 3
     downloaded: true
     extracted: true
     ingested: true
     ocr_needed: false
-    notes: Rulings on permissible recreation, music, visual arts in Islam.
+    notes: Rulings on permissible recreation, music, visual arts in Islam. Monographic
+      essay, re-split into 7 logical sections.
     downloaded_at: '2026-05-16'
     pdf_size: 1866058
     extracted_at: '2026-05-16'
-    chapters: 1
+    chapters: 7
+    subsections: 0
     ingested_at: '2026-05-16'
-    pages_created: 3
+    pages_created: 8
+    last_updated: '2026-06-09'
   contemporary-fatwa-1:
     title: Contemporary Fatwa Volume 1
     arabic_title: فقه الواقع — الجزء الأول
@@ -334,18 +358,22 @@ books:
     - islamic-movement
     - future
     estimated_chapters: 10
+    actual_chapters: 8
     priority: 3
     downloaded: true
     extracted: true
     ingested: true
     ocr_needed: false
     notes: Eschatological and strategic. Heavy political content — ingest selectively.
+      Re-split into 8 sections per TOC.
     downloaded_at: '2026-05-16'
     pdf_size: 893983
     extracted_at: '2026-05-16'
-    chapters: 1
+    chapters: 8
+    subsections: 0
     ingested_at: '2026-05-16'
-    pages_created: 3
+    pages_created: 9
+    last_updated: '2026-06-09'
   fiqh-al-taharah:
     title: Fiqh al-Taharah (Arabic)
     arabic_title: فقه الطهارة
@@ -393,4 +421,4 @@ stats:
   extracted: 8
   ingested: 8
   total_wiki_pages: 71
-  last_updated: '2026-05-16'
+  last_updated: '2026-06-09'

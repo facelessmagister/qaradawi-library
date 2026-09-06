@@ -1,7 +1,7 @@
 ---
-title: Pre-requisites for the Success
+title: Pre-requisites for the Success of Islamic Economic System
 created: '2026-05-16'
-updated: '2026-05-16'
+updated: '2026-06-09'
 type: chapter
 tags:
 - fiqh-muamalat
@@ -15,7 +15,7 @@ chapter: 7
 confidence: medium
 ---
 
-# Pre-requisites for the Success
+# Pre-requisites for the Success of Islamic Economic System
 
 **Book:** [[economic-security-overview|Economic Security in Islam]]
 **Chapter:** 7 of 7
@@ -39,36 +39,9 @@ confidence: medium
 | [[concept-prayer|Prayer]] | صَلَاة | 2 |
 | [[concept-sunnah|Sunnah]] | سُنَّة | 2 |
 
-## Preview
+## Summary
 
-```
-PRE-REQUISITES FOR THE SUCCESS                 OF
-ISLAMIC ECONOMIC SYSTEM
-The Economic System of Islam can be bene-
-ficial only if it is run on the basis of the Holy
-Qur’4an and the Sunnah, covering the economic,
-political and social fields of the Muslims, If Islam
-is to be made to solve all the economic problems of
-Muslims within the non-Muslim system of living,
-and   un-Islamic   adjustments       are   made _ here
-and there, the Islamic principles introduced in
-```
+The concluding chapter shifts from exposition to diagnosis of implementation failures. Qaradawi insists that the Islamic economic system can function only within an Islamic state governed by the Qur'an and Sunnah across political, social, and economic domains; piecemeal adoption under non-Islamic structures will yield negligible results. Five systemic barriers are identified: (1) mismatched employment—workers assigned to jobs beyond or below their capacity; (2) inadequate remuneration where wages cannot cover basic living costs; (3) inflationary social pressure that drives expenditure on luxuries, usury, and unproductive pursuits; (4) monopolistic exploitation, black markets, and corruption that erode the purchasing power of ordinary earners; and (5) debt entrapment through interest-based lending. The chapter then examines why a merely formal reintroduction of zakat would fail in contemporary Muslim societies: popular evasion due to conflation with government taxation, administrative corruption that diverts funds before they reach the deserving, and a populace insufficiently educated in Islamic values to sustain the system's moral fabric. Qaradawi's remedy is unequivocal: nothing short of a comprehensive Islamic state—free from usury, luxury, and moral corruption—can actualise the economic-security framework detailed in the preceding chapters. The treatise thus closes by tying economic doctrine back to political and spiritual prerequisites, insisting that fiqh and governance are inseparable.
 
 ## Full Source
 See `raw/extracted/economic-security/ch-07.txt` for complete text.
-
----
-
-*Extracted from Economic Security in Islam — Chapter 7*
-- See also: [[fiqh-al-zakah-ch-10|Pre-requisites for the Success]]
-- See also: [[economic-security-ch-02|Pre-requisites for the Success]]
-- See also: [[fiqh-al-zakah-ch-05|Pre-requisites for the Success]]
-- See also: [[fiqh-al-zakah-ch-07|Pre-requisites for the Success]]
-- See also: [[ethics-in-islam-ch-01|Pre-requisites for the Success]]
-- See also: [[education-economy-sunnah-ch-02|Pre-requisites for the Success]]
-- See also: [[fiqh-al-zakah-ch-01|Pre-requisites for the Success]]
-- See also: [[fiqh-al-zakah-ch-08|Pre-requisites for the Success]]
-- See also: [[diversion-arts-ch-01|Pre-requisites for the Success]]
-- See also: [[education-economy-sunnah-ch-01|Pre-requisites for the Success]]
-- See also: [[auspices-victory-ch-01|Pre-requisites for the Success]]
-- See also: [[faith-and-life-ch-01|Pre-requisites for the Success]]

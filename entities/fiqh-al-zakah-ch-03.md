@@ -1,5 +1,5 @@
 ---
-title: Zakah on Gold and Silver………………………………...                                                               123
+title: Zakah on Gold and Silver
 created: '2026-05-16'
 updated: '2026-05-16'
 type: chapter
@@ -23,7 +23,7 @@ confidence: medium
 - [[fiqh-al-zakah-overview|Book Overview]]
 - [[fiqh-al-zakah-ch-02|← Chapter 2]]
 - [[fiqh-al-zakah-ch-04|Chapter 4 →]]
-- [[concept-zakah|Zakah (زَكَاة)]]
+- [[concept-zakat|Zakah (زَكَاة)]]
 - [[concept-zakat|Zakat (زَكَاة)]]
 - [[concept-fiqh|Fiqh (فِقْه)]]
 - [[concept-ijma|Ijma (إِجْمَاع)]]
@@ -33,7 +33,7 @@ confidence: medium
 
 | Concept | Arabic | Frequency |
 |---------|--------|-----------|
-| [[concept-zakah|Zakah]] | زَكَاة | 257 |
+| [[concept-zakat|Zakah]] | زَكَاة | 257 |
 | [[concept-zakat|Zakat]] | زَكَاة | 114 |
 | [[concept-fiqh|Fiqh]] | فِقْه | 21 |
 | [[concept-ijma|Ijma]] | إِجْمَاع | 11 |
@@ -42,46 +42,9 @@ confidence: medium
 | [[concept-hadith|Hadith]] | حَدِيث | 3 |
 | [[concept-halal|Halal]] | حَلَال | 2 |
 
-## Preview
+## Summary
 
-```
-ZAKAH ON GOLD AND SILVER
-Gold and silver are useful precious metals. Many nations have used gold as money
-and a measure of value. Shari'ah considers gold and silver growing wealth by definition,
-and they are zakatable whether they are used in the form of coins or bullion, or even as
-ornaments and decorative materials. However, they carry a different ruling when they
-are used as women's ornament and jewelry. This chapter will have two sections, one
-devoted to zakah on money and another to zakah on jewelry and ornament.
-The role and development of money
-Barter was the method of exchange for primitive tribes. Once society and trade grew,
-barter could not satisfy all transactions because of the difficulty of finding another party
-```
+Chapter 3 addresses the zakah obligation on gold and silver, the two precious metals that served as currency throughout the Islamic world. Al-Qaradawi divides the chapter into two sections: zakah on money and zakah on jewelry and ornament. Regarding money, the chapter traces the historical role of gold dinars and silver dirhams as the primary media of exchange at the time of the Prophet, then establishes the obligation of zakah on both metals through Qur'anic evidence—the severe warning against hoarding in Surat al-Tawbah—Sunnah reports from Abu Hurairah and Anas, and uninterrupted ijma across all Muslim generations. The rationale for zakah on money is anti-hoarding: idle wealth stifles economic circulation, and the annual two-and-a-half percent levy incentivizes productive investment rather than passive accumulation, as the Prophet urged guardians of orphans to invest their funds lest they be consumed by zakah. Al-Qaradawi firmly rejects proposals to raise the zakah rate on monetary wealth, presenting seven arguments: contradiction of authentic Sunnah, violation of centuries of ijma, the availability of supplementary taxation for genuine public needs, the impossibility of analogical derivation of zakah rates, the inviolable religious character of zakah as a pillar of Islam, the dangerous precedent that would allow reductions or eliminations, and the risk of wider Shari'ah erosion. The chapter then addresses nisab thresholds—five uqiyyah of silver (200 dirhams) and 20 dinars of gold—explaining how these were derived from Prophetic practice and the weight system of the Makkan merchants.
 
 ## Full Source
 See `raw/extracted/fiqh-al-zakah/ch-03.txt` for complete text.
-
----
-
-*Extracted from Fiqh al-Zakah (2 Volumes) — Chapter 3*
-- See also: [[approaching-the-sunnah-ch-01|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[approaching-the-sunnah-ch-03|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[diversion-arts-ch-01|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[ethics-in-islam-ch-01|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[education-economy-sunnah-ch-01|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[faith-and-life-ch-01|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[ethics-in-islam-ch-02|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[fiqh-al-zakah-ch-06|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[fiqh-al-zakah-ch-09|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[economic-security-ch-05|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[ethics-in-islam-ch-04|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[economic-security-ch-07|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[fiqh-al-zakah-ch-10|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[economic-security-ch-02|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[fiqh-al-zakah-ch-05|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[fiqh-al-zakah-ch-07|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[education-economy-sunnah-ch-02|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[fiqh-al-zakah-ch-01|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[fiqh-al-zakah-ch-08|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[economic-security-ch-06|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[economic-security-ch-03|Zakah on Gold and Silver………………………………...                                                               123]]
-- See also: [[auspices-victory-ch-01|Zakah on Gold and Silver………………………………...                                                               123]]

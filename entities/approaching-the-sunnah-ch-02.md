@@ -39,23 +39,12 @@ confidence: medium
 | [[concept-salah|Salah]] | صَلَاة | 6 |
 | [[concept-hajj|Hajj]] | حَجّ | 5 |
 | [[concept-ijma|Ijma]] | إِجْمَاع | 5 |
-| [[concept-zakah|Zakah]] | زَكَاة | 3 |
+| [[concept-zakat|Zakah]] | زَكَاة | 3 |
 | [[concept-prayer|Prayer]] | صَلَاة | 3 |
 
-## Preview
+## Summary
 
-```
-The Sunnah as a Source
-for Jurisprudence and Preaching
-IN JURISPRUDENCE AND LEGISLATION
-The Sunnah is, after the Qur’an, the second source for juris­
-prudence and legislation. There is apposite and wide-ranging dis­
-cussion of the fact in all the books on the principles of juris­
-prudence of all the schools. Al-AwzacI (d. 157 AH) said: “The Book
-is more in need of the Sunnah than the Sunnah is of the Book.”1
-He said so because the Sunnah clarifies the Qur’an by detailing
-what is summary in it, qualifying what is absolute in it, and
-```
+This chapter examines the Sunnah as the second source of Islamic jurisprudence and legislation, after the Qur'an. Al-Qaradawi opens with al-Awzāʿī's dictum that "the Book is more in need of the Sunnah than the Sunnah is of the Book," explaining that the Sunnah clarifies the Qur'an by detailing what is summary, qualifying what is absolute, and particularizing what is general. He endorses Ibn Hanbal's balanced formulation: "The Sunnah is the exposition of the Book." The chapter then demonstrates the universal consensus among all legal schools — ahl al-ḥadīth and ahl al-ra'y alike — that the Sunnah is an indispensable legislative source. A substantial section refutes the claim that Abū Ḥanīfah accepted only seventeen hadiths, carefully analyzing Ibn Khaldūn's actual passage to show that this attribution rests on a misreading: Ibn Khaldūn reported the opinion in the passive voice to distance himself from it and subsequently rejected it, explaining that Abū Ḥanīfah's limited transmission resulted from stringent authentication criteria, not rejection of hadith authority. The chapter further documents that all jurists, across every school and region, appealed to the Sunnah in their legal rulings, illustrating this through reports from Mālik and others insisting that the Prophet's word alone settles any question. The discussion establishes the Sunnah's legislative authority as beyond legitimate dispute before turning to its role as a source for preaching.
 
 ## Full Source
 See `raw/extracted/approaching-the-sunnah/ch-02.txt` for complete text.
@@ -63,26 +52,3 @@ See `raw/extracted/approaching-the-sunnah/ch-02.txt` for complete text.
 ---
 
 *Extracted from Approaching the Sunnah: Comprehension and Controversy — Chapter 2*
-- See also: [[ethics-in-islam-ch-03|Chapter 2]]
-- See also: [[economic-security-ch-04|Chapter 2]]
-- See also: [[fiqh-al-zakah-ch-03|Chapter 2]]
-- See also: [[economic-security-ch-06|Chapter 2]]
-- See also: [[ethics-in-islam-ch-02|Chapter 2]]
-- See also: [[fiqh-al-zakah-ch-04|Chapter 2]]
-- See also: [[fiqh-al-zakah-ch-09|Chapter 2]]
-- See also: [[economic-security-ch-05|Chapter 2]]
-- See also: [[economic-security-ch-03|Chapter 2]]
-- See also: [[ethics-in-islam-ch-04|Chapter 2]]
-- See also: [[economic-security-ch-07|Chapter 2]]
-- See also: [[diversion-arts-ch-01|Chapter 2]]
-- See also: [[fiqh-al-zakah-ch-05|Chapter 2]]
-- See also: [[ethics-in-islam-ch-01|Chapter 2]]
-- See also: [[education-economy-sunnah-ch-02|Chapter 2]]
-- See also: [[education-economy-sunnah-ch-01|Chapter 2]]
-- See also: [[fiqh-al-zakah-ch-01|Chapter 2]]
-- See also: [[auspices-victory-ch-01|Chapter 2]]
-- See also: [[fiqh-al-zakah-ch-08|Chapter 2]]
-- See also: [[fiqh-al-zakah-ch-10|Chapter 2]]
-- See also: [[faith-and-life-ch-01|Chapter 2]]
-- See also: [[fiqh-al-zakah-ch-06|Chapter 2]]
-- See also: [[fiqh-al-zakah-ch-07|Chapter 2]]

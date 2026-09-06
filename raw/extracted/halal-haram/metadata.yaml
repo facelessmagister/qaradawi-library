@@ -1,0 +1,5 @@
+source: raw/pdfs/halal-haram.pdf
+pages: '379'
+extraction_method: OCR (tesseract)
+total_characters: '709308'
+ocr_dpi: '300'
